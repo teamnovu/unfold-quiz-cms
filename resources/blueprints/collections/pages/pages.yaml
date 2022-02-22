@@ -1,0 +1,164 @@
+title: Pages
+sections:
+  Home:
+    display: Home
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: main_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Main Title'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
+  register:
+    display: Register
+    fields:
+      -
+        handle: register_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Register Title'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
+        handle: register_checkbox_text
+        field:
+          input_type: text
+          antlers: false
+          default: 'Newsletter abonnieren'
+          display: 'Checkbox Text'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+  questions:
+    display: Questions
+    fields:
+      -
+        handle: components
+        field:
+          collapse: true
+          sets:
+            checkboxes:
+              display: Checkboxes
+              fields:
+                -
+                  import: question_checkboxes
+            radio_buttons:
+              display: 'Radio Buttons'
+              fields:
+                -
+                  import: question_radio_buttons
+            radio_button_images:
+              display: 'Radio Button Images'
+              fields:
+                -
+                  import: question_radio_button_images
+            radio_button_images_and_text:
+              display: 'Radio Button Images and Text'
+              fields:
+                -
+                  import: question_radio_button_images_text
+          display: Components
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+  completion:
+    display: Completion
+    fields:
+      -
+        handle: completion_feedback
+        field:
+          fields:
+            -
+              handle: point_range
+              field:
+                min: 0
+                max: 100
+                step: 1
+                display: 'Point range'
+                type: range
+                icon: range
+                instructions: 'Gibt an, bis zu welchem Prozentwert die Antwort ausgegeben wird. Als Startpunkt zählt der nächst kleinere Slider oder 0'
+                listable: hidden
+                instructions_position: above
+            -
+              handle: feedback
+              field:
+                always_show_set_button: false
+                buttons:
+                  - bold
+                  - italic
+                  - removeformat
+                save_html: false
+                toolbar_mode: fixed
+                link_noopener: false
+                link_noreferrer: false
+                target_blank: false
+                reading_time: false
+                fullscreen: true
+                allow_source: true
+                enable_input_rules: true
+                enable_paste_rules: true
+                antlers: false
+                display: Feedback
+                type: bard
+                icon: bard
+                listable: hidden
+                instructions_position: above
+          mode: stacked
+          reorderable: true
+          display: 'Completion Feedback'
+          type: grid
+          icon: grid
+          listable: hidden
+          instructions_position: above
+      -
+        handle: mandelbaerli_text
+        field:
+          antlers: false
+          display: 'Mandelbärli Text'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+      -
+        handle: no_manderlbaerli_text
+        field:
+          antlers: false
+          display: 'No Manderlbärli Text'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above

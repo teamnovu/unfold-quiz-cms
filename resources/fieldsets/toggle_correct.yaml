@@ -1,0 +1,13 @@
+title: 'Toggle Correct'
+fields:
+  -
+    handle: correct
+    field:
+      default: false
+      display: Correct
+      type: toggle
+      icon: toggle
+      instructions: 'Toggle if the answer is correct'
+      listable: hidden
+      instructions_position: above
+      width: 25

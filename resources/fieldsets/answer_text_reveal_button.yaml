@@ -1,0 +1,10 @@
+title: 'Answer Text Reveal Button'
+fields:
+  -
+    handle: revealer
+    field:
+      display: 'Show answer text input'
+      type: revealer
+      icon: revealer
+      listable: hidden
+      instructions_position: above

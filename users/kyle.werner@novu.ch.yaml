@@ -2,3 +2,7 @@ name: 'Kyle Werner'
 super: true
 id: 0492f82b-910c-4782-a2a8-239a336757f3
 password_hash: $2y$10$FFAY7Rd/5PUWJcmtIToOqunLm1brT9xpU7QE3jNT8QNr7UxphpUTm
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing

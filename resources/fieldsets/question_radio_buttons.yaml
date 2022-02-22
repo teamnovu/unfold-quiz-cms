@@ -1,0 +1,36 @@
+title: 'Question Radio Buttons'
+fields:
+  -
+    import: question_text
+  -
+    import: feedback_global
+  -
+    handle: radio_buttons
+    field:
+      fields:
+        -
+          handle: answer
+          field:
+            input_type: text
+            antlers: false
+            display: Answer
+            type: text
+            icon: text
+            listable: hidden
+            instructions_position: above
+            width: 75
+        -
+          import: toggle_correct
+        -
+          import: answer_text_reveal_button
+        -
+          import: answer_correct_text
+        -
+          import: answer_incorrect_text
+      mode: stacked
+      reorderable: true
+      display: 'Radio Buttons'
+      type: grid
+      icon: grid
+      listable: hidden
+      instructions_position: above

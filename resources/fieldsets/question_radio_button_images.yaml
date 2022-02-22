@@ -1,0 +1,59 @@
+title: 'Question Radio Button Image'
+fields:
+  -
+    import: question_text
+  -
+    import: feedback_global
+  -
+    handle: is_illustration
+    field:
+      default: false
+      display: 'Is Illustration'
+      type: toggle
+      icon: toggle
+      instructions: 'Toggle if the image are illustrations. It changes the hover behavior'
+      listable: hidden
+      instructions_position: above
+  -
+    handle: radio_buttons
+    field:
+      fields:
+        -
+          handle: image
+          field:
+            mode: list
+            container: assets
+            restrict: false
+            allow_uploads: true
+            show_filename: true
+            max_files: 1
+            display: Image
+            type: assets
+            icon: assets
+            listable: hidden
+            instructions_position: above
+        -
+          handle: image_overlay_text
+          field:
+            input_type: text
+            antlers: false
+            display: 'Image Overlay Text'
+            type: text
+            icon: text
+            listable: hidden
+            instructions_position: above
+        -
+          import: toggle_correct
+        -
+          import: answer_text_reveal_button
+        -
+          import: answer_correct_text
+        -
+          import: answer_incorrect_text
+      mode: stacked
+      reorderable: true
+      display: 'Radio Buttons'
+      type: grid
+      icon: grid
+      listable: hidden
+      instructions_position: above

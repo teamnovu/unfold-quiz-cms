@@ -1,0 +1,64 @@
+title: 'Feedback Global'
+fields:
+  -
+    handle: global_feedback
+    field:
+      default: false
+      display: 'Global Feedback'
+      type: toggle
+      icon: toggle
+      instructions: 'Toggle if you like to have just one positive feedback and one negative feedback. The answers on the questions will be ignored if a global answer is set'
+      listable: hidden
+      instructions_position: above
+  -
+    handle: answer_correct
+    field:
+      always_show_set_button: false
+      buttons:
+        - bold
+        - italic
+        - removeformat
+      save_html: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
+      antlers: false
+      display: 'Answer Correct'
+      type: bard
+      icon: bard
+      listable: hidden
+      instructions_position: above
+      if:
+        global_feedback: 'equals true'
+  -
+    handle: answer_incorrect
+    field:
+      always_show_set_button: false
+      buttons:
+        - bold
+        - italic
+        - removeformat
+      save_html: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
+      antlers: false
+      display: 'Answer Incorrect'
+      type: bard
+      icon: bard
+      listable: hidden
+      instructions_position: above
+      if:
+        global_feedback: 'equals true'
