@@ -57,7 +57,7 @@ completion_feedback:
 mandelbaerli_text: 'Hol dir jetzt dein Mandelbärli an unserem Stand ab! Zeig uns dafür deine Punktzahl.'
 no_manderlbaerli_text: 'Auc hwir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab wenn du noch keines bekommen hast.'
 updated_by: 0492f82b-910c-4782-a2a8-239a336757f3
-updated_at: 1645535958
+updated_at: 1645714320
 main_title: 'Nim jetzt am novu Quiz teil und gewinne tolle Preise!'
 register_title: 'Hinterlege deine Daten, um an dem Wettbewerb teilzunehmen.'
 components:
@@ -131,28 +131,28 @@ components:
             text: 'Wer sitzt fast täglich 3h im Auto im Podcast-Rausch, um seine Team-Kollegen/Kolleginnen zu sehen?'
     radio_buttons:
       -
-        image: null
+        image: joel.jpg
         image_overlay_text: 'Joel von Allmen'
         correct: false
         answer_correct_text: null
         answer_incorrect_text: null
         revealer: null
       -
-        image: null
+        image: oli.jpg
         image_overlay_text: 'Oliver Kaufmann'
         correct: true
         answer_correct_text: null
         answer_incorrect_text: null
         revealer: null
       -
-        image: null
+        image: marcel.jpg
         image_overlay_text: 'Marcel Hofer'
         correct: false
         answer_correct_text: null
         answer_incorrect_text: null
         revealer: null
       -
-        image: null
+        image: kyle.jpg
         image_overlay_text: 'Kyle Werner'
         correct: false
         answer_correct_text: null
@@ -188,27 +188,15 @@ components:
       -
         answer: 'Menschliche Harmonie und respektvoller Umgang'
         correct: true
-        answer_correct_text: null
-        answer_incorrect_text: null
-        revealer: null
       -
         answer: 'Aktiver Austausch'
         correct: true
-        answer_correct_text: null
-        answer_incorrect_text: null
-        revealer: null
       -
         answer: 'Ein grosses Projektbudget'
         correct: false
-        answer_correct_text: null
-        answer_incorrect_text: null
-        revealer: null
       -
         answer: 'Detaillierte und ausgearbeitete Vorgaben von Kund:innen'
         correct: false
-        answer_correct_text: null
-        answer_incorrect_text: null
-        revealer: null
     global_feedback: true
     type: checkboxes
     enabled: true
@@ -252,14 +240,14 @@ components:
     radio_buttons:
       -
         answer: 'Modal 1'
-        image: null
+        image: modal1-1645713668.png
         correct: true
         revealer: null
         answer_correct_text: null
         answer_incorrect_text: null
       -
         answer: 'Modal 2'
-        image: null
+        image: modal2-1645713672.png
         correct: false
         revealer: null
         answer_correct_text: null
@@ -278,7 +266,7 @@ components:
     is_illustration: true
     radio_buttons:
       -
-        image: null
+        image: uxdesign1.png
         image_overlay_text: 'UX design'
         correct: false
         revealer: null
@@ -291,7 +279,7 @@ components:
                 type: text
                 text: Falsch
       -
-        image: null
+        image: uxdesign2.png
         image_overlay_text: 'Komplexe Schnittstellen'
         correct: true
         revealer: null
@@ -304,7 +292,7 @@ components:
                 text: Richtig
         answer_incorrect_text: null
       -
-        image: null
+        image: uxdesign3.png
         image_overlay_text: Eigenentwicklungen
         correct: false
         revealer: null
@@ -317,7 +305,7 @@ components:
                 type: text
                 text: Falsch
       -
-        image: null
+        image: uxdesign4.png
         image_overlay_text: 'Marketing- kampagnen'
         correct: true
         revealer: null

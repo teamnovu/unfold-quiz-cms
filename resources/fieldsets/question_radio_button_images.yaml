@@ -11,7 +11,7 @@ fields:
       display: 'Is Illustration'
       type: toggle
       icon: toggle
-      instructions: 'Toggle if the image are illustrations. It changes the hover behavior'
+      instructions: 'Toggle if the image are illustrations. It changes the focus and selected behavior -> background gold'
       listable: hidden
       instructions_position: above
   -
