@@ -21,12 +21,6 @@ fields:
             width: 75
         -
           import: toggle_correct
-        -
-          import: answer_text_reveal_button
-        -
-          import: answer_correct_text
-        -
-          import: answer_incorrect_text
       mode: stacked
       reorderable: true
       display: Checkboxes
