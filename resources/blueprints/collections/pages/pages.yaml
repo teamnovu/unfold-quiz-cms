@@ -74,6 +74,11 @@ sections:
               fields:
                 -
                   import: question_checkboxes
+            checkbox_images:
+              display: 'Checkbox Images'
+              fields:
+                -
+                  import: question_checkbox_images
             radio_buttons:
               display: 'Radio Buttons'
               fields:

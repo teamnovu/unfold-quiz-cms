@@ -1,4 +1,4 @@
-title: 'Question Radio Button Images'
+title: 'Question Checkbox Images'
 fields:
   -
     import: question_text
@@ -15,7 +15,7 @@ fields:
       listable: hidden
       instructions_position: above
   -
-    handle: radio_buttons
+    handle: checkboxes
     field:
       fields:
         -
@@ -52,7 +52,7 @@ fields:
           import: answer_incorrect_text
       mode: stacked
       reorderable: true
-      display: 'Radio Buttons'
+      display: Checkboxen
       type: grid
       icon: grid
       listable: hidden
