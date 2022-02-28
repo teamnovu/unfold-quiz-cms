@@ -1,0 +1,150 @@
+title: Users
+fields:
+  -
+    handle: firstname
+    field:
+      input_type: text
+      antlers: false
+      display: Firstname
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+  -
+    handle: lastname
+    field:
+      input_type: text
+      antlers: false
+      display: Lastname
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+  -
+    handle: email
+    field:
+      input_type: text
+      antlers: false
+      display: Email
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+  -
+    handle: company
+    field:
+      input_type: text
+      antlers: false
+      display: Company
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+  -
+    handle: newsletter
+    field:
+      default: false
+      display: newsletter
+      type: toggle
+      icon: toggle
+      listable: hidden
+      instructions_position: above
+  -
+    handle: results
+    field:
+      fields:
+        -
+          handle: time_field
+          field:
+            display: 'Time Field'
+            type: time
+            icon: time
+            listable: hidden
+            instructions_position: above
+        -
+          handle: points
+          field:
+            display: Points
+            type: integer
+            icon: integer
+            width: 50
+            listable: hidden
+            instructions_position: above
+        -
+          handle: total
+          field:
+            display: Total
+            type: integer
+            icon: integer
+            width: 50
+            listable: hidden
+            instructions_position: above
+        -
+          handle: solutions
+          field:
+            fields:
+              -
+                handle: answer
+                field:
+                  fields:
+                    -
+                      handle: questionIndex
+                      field:
+                        display: 'Question Index'
+                        type: integer
+                        icon: integer
+                        listable: hidden
+                        instructions_position: above
+                        width: 50
+                    -
+                      handle: correct
+                      field:
+                        input_type: text
+                        antlers: false
+                        display: Correct
+                        type: text
+                        icon: text
+                        listable: hidden
+                        instructions_position: above
+                        width: 50
+                    -
+                      handle: question
+                      field:
+                        input_type: text
+                        antlers: false
+                        display: Question
+                        type: text
+                        icon: text
+                        listable: hidden
+                        instructions_position: above
+                    -
+                      handle: answer
+                      field:
+                        input_type: text
+                        antlers: false
+                        display: Answer
+                        type: text
+                        icon: text
+                        listable: hidden
+                        instructions_position: above
+                  mode: stacked
+                  reorderable: true
+                  display: Answer
+                  type: grid
+                  icon: grid
+                  listable: hidden
+                  instructions_position: above
+            mode: stacked
+            reorderable: true
+            display: Solutions
+            type: grid
+            icon: grid
+            listable: hidden
+            instructions_position: above
+      mode: stacked
+      reorderable: true
+      display: Results
+      type: grid
+      icon: grid
+      listable: hidden
+      instructions_position: above
