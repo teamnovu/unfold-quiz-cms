@@ -3,7 +3,7 @@ fields:
   -
     handle: question
     field:
-      always_show_set_button: false
+      always_show_set_button: true
       buttons:
         - bold
         - italic
@@ -24,3 +24,10 @@ fields:
       icon: bard
       listable: hidden
       instructions_position: above
+      sets:
+        radio_buttons:
+          display: 'Radio Buttons'
+          fields: {  }
+        checkboxes:
+          display: Checkboxen
+          fields: {  }
