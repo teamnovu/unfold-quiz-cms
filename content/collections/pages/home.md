@@ -56,8 +56,8 @@ completion_feedback:
             text: ' du gehörst zu den novu Profis!'
 mandelbaerli_text: 'Hol dir jetzt dein Mandelbärli an unserem Stand ab! Zeig uns dafür deine Punktzahl.'
 no_manderlbaerli_text: 'Auc hwir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab wenn du noch keines bekommen hast.'
-updated_by: 21985a0f-b04d-4818-937d-e6240cd1c12c
-updated_at: 1646052246
+updated_by: 0492f82b-910c-4782-a2a8-239a336757f3
+updated_at: 1646057461
 main_title: 'Nim jetzt am novu Quiz teil und gewinne tolle Preise!'
 register_title: 'Hinterlege deine Daten, um an dem Wettbewerb teilzunehmen.'
 components:
@@ -261,29 +261,7 @@ components:
         content:
           -
             type: text
-            text: 'Welche diese'
-      -
-        type: set
-        attrs:
-          values:
-            type: radio_buttons
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'r Angebote gehören NICHT zu unsere'
-      -
-        type: set
-        attrs:
-          values:
-            type: checkboxes
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'n Kernkompetenzen?'
+            text: 'Welche dieser Angebote gehören NICHT zu unseren Kernkompetenzen?'
     global_feedback: false
     is_illustration: true
     checkboxes:
@@ -348,7 +326,29 @@ components:
         content:
           -
             type: text
-            text: 'Wann wird eine    Checkbox und wann ein    Radio-Button verwendet?'
+            text: 'Wann wird eine'
+      -
+        type: set
+        attrs:
+          values:
+            type: checkboxes
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Checkbox und wann ein'
+      -
+        type: set
+        attrs:
+          values:
+            type: radio_buttons
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: ' Radio-Button verwendet?'
     global_feedback: true
     answer_correct:
       -
