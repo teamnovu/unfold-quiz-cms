@@ -25,22 +25,18 @@ class ResultsController extends Controller
 
         // strip answer texts
         foreach ($payload['solutions'] as &$value) {
-            ray($value);
             $value['question'] = strip_tags($value['question']);
             $value['answer'] = strip_tags($value['answer']);
         }
 
         // check if user already exists
         $storedUsers = $entry->get('users');
-        if ($storedUsers) {
-            $foundUserIndex = array_search($userEmail, array_column($storedUsers, 'email'));
-        } else {
-            $foundUserIndex = false;
-        }
 
+        if ($storedUsers == null) $storedUsers = [];
+        $foundUserIndex = array_search($userEmail, array_column($storedUsers, 'email'));
 
         // create new user
-        if (!$foundUserIndex) {
+        if (!is_numeric($foundUserIndex)) {
             $newUser = [
                 'firstname' => $payload['user']['firstname'],
                 'lastname' => $payload['user']['lastname'],
@@ -66,7 +62,8 @@ class ResultsController extends Controller
         }
 
         // add result to existing user
-        if ($foundUserIndex) {
+        if (is_numeric($foundUserIndex)) {
+
             $newResults = [
                 'time_field' =>  date('Y-m-d H:i:s'),
                 'points' => $payload['points'],
