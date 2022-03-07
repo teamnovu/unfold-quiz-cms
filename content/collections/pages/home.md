@@ -44,21 +44,12 @@ completion_feedback:
         content:
           -
             type: text
-            text: 'Gratuliere '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: '&#127881'
-          -
-            type: text
-            text: ' du gehörst zu den novu Profis!'
+            text: 'Gratuliere 🤩 du gehörst zu den novu Profis!'
 mandelbaerli_text: 'Hol dir jetzt dein Mandelbärli an unserem Stand ab! Zeig uns dafür deine Punktzahl.'
-no_manderlbaerli_text: 'Auc hwir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab wenn du noch keines bekommen hast.'
+no_manderlbaerli_text: 'Auch wir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab wenn du noch keines bekommen hast.'
 updated_by: 0492f82b-910c-4782-a2a8-239a336757f3
-updated_at: 1646057461
-main_title: 'Nim jetzt am novu Quiz teil und gewinne tolle Preise!'
+updated_at: 1646647453
+main_title: 'Nimm jetzt am novu Quiz teil und gewinne tolle Preise!'
 register_title: 'Hinterlege deine Daten, um an dem Wettbewerb teilzunehmen.'
 components:
   -
@@ -385,5 +376,6 @@ components:
         answer_incorrect_text: null
     type: radio_buttons
     enabled: true
+min_result_for_mandelbaerli: 66
 ---
 Welcome to your new Statamic website.

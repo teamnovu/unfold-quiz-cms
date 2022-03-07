@@ -49,6 +49,17 @@ fields:
       icon: toggle
       listable: hidden
       instructions_position: above
+      width: 50
+  -
+    handle: mandelbaerli_received
+    field:
+      default: false
+      display: 'Mandelbärli Received'
+      type: toggle
+      icon: toggle
+      width: 50
+      listable: hidden
+      instructions_position: above
   -
     handle: results
     field:

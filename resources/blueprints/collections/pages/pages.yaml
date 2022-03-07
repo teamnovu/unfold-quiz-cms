@@ -103,6 +103,16 @@ sections:
     display: Completion
     fields:
       -
+        handle: min_result_for_mandelbaerli
+        field:
+          default: '66'
+          display: 'Minimum result for a Mandelbärli'
+          type: integer
+          icon: integer
+          instructions: 'In percent %'
+          listable: hidden
+          instructions_position: above
+      -
         handle: completion_feedback
         field:
           fields:

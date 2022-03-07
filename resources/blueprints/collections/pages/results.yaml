@@ -13,7 +13,7 @@ sections:
       -
         handle: users
         field:
-          collapse: false
+          collapse: true
           sets:
             user:
               display: User
