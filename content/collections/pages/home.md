@@ -14,19 +14,7 @@ completion_feedback:
         content:
           -
             type: text
-            text: 'Zu wenig Punkte!'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Versuch es nochmals. Unser Team hilft '
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'dir gerne.'
+            text: 'Zu wenig Punkte! Versuch es nochmals. Unser Team hilft dir gerne.'
   -
     point_range: '66'
     feedback:
@@ -48,7 +36,7 @@ completion_feedback:
 mandelbaerli_text: 'Hol dir jetzt dein Mandelbärli an unserem Stand ab! Zeig uns dafür deine Punktzahl.'
 no_manderlbaerli_text: 'Auch wir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab wenn du noch keines bekommen hast.'
 updated_by: 0492f82b-910c-4782-a2a8-239a336757f3
-updated_at: 1646647453
+updated_at: 1646669489
 main_title: 'Nimm jetzt am novu Quiz teil und gewinne tolle Preise!'
 register_title: 'Hinterlege deine Daten, um an dem Wettbewerb teilzunehmen.'
 components:
