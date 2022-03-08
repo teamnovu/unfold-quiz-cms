@@ -35,11 +35,90 @@ completion_feedback:
             text: 'Gratuliere 🤩 du gehörst zu den novu Profis!'
 mandelbaerli_text: 'Hol dir jetzt dein Mandelbärli an unserem Stand ab! Zeig uns dafür deine Punktzahl.'
 no_manderlbaerli_text: 'Auch wir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab wenn du noch keines bekommen hast.'
-updated_by: 0492f82b-910c-4782-a2a8-239a336757f3
-updated_at: 1646669489
+updated_by: 3ef1c86e-b7fb-459b-9238-c3e41f033ec1
+updated_at: 1646742138
 main_title: 'Nimm jetzt am novu Quiz teil und gewinne tolle Preise!'
 register_title: 'Hinterlege deine Daten, um an dem Wettbewerb teilzunehmen.'
 components:
+  -
+    question:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Welche dieser Angebote gehören NICHT zu unseren Kernkompetenzen?'
+    global_feedback: true
+    is_illustration: true
+    checkboxes:
+      -
+        image: uxdesign1.png
+        image_overlay_text: 'UX Design'
+        correct: false
+        revealer: null
+        answer_correct_text: null
+        answer_incorrect_text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: Falsch
+      -
+        image: uxdesign2.png
+        image_overlay_text: 'Komplexe Schnittstellen'
+        correct: true
+        revealer: null
+        answer_correct_text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: Richtig
+        answer_incorrect_text: null
+      -
+        image: uxdesign3.png
+        image_overlay_text: Eigenentwicklungen
+        correct: false
+        revealer: null
+        answer_correct_text: null
+        answer_incorrect_text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: Falsch
+      -
+        image: uxdesign4.png
+        image_overlay_text: Marketingkampagnen
+        correct: true
+        revealer: null
+        answer_correct_text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: Richtig
+        answer_incorrect_text: null
+    type: checkbox_images
+    enabled: true
+    answer_correct:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Genau richtig. Für klassische Marketingkampagnen bist du bei uns an der falschen Adresse. Wir konzentrieren uns lieber auf unsere Kernkompetenzen: Konzept & Design sowie Entwicklung von Websiten und Webapplikationen und alles was dazu gehört.'
+    answer_incorrect:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Nicht ganz. Du hast eine unserer Kernkompetenzen ausgewählt. UX Design, komplexe Schnittstellen und auch eigene Entwicklungen – wenn es im Projekt einen Bedarf gibt – können wir ziemlich gut und machen uns auch wirklich Spass. Marketingkampagnen hingegen überlassen wir lieber anderen, das ist keine unserer Kernkompetenzen.'
   -
     question:
       -
@@ -97,9 +176,23 @@ components:
                 type: text
                 text: 'Auch möglich kostet aber viel Zeit im Unterhalt'
         revealer: null
-    global_feedback: false
+    global_feedback: true
     type: radio_buttons
     enabled: true
+    answer_correct:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Absolut richtig. Statamic ist unser absolutes Lieblings-CMS. Es ist simpel, intuitiv bedienbar, komponentenbasiert und ein wirklich performantes Tool für die Entwicklung von massgeschneiderten Webseiten.'
+    answer_incorrect:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Nope, leider nein. Unser Lieblings-CMS ist Statamic. WordPress ist bei uns im Büro mehr ein Schimpfwort, Typ3 ist in der Logik zu technisch und nicht intuitiv zu bedienen und Eigenentwicklungen machen wir nur dort, wo wir mit Statamic und/oder Schnittstellen nicht die gewünschten Resultate erzielen können.'
   -
     question:
       -
@@ -232,71 +325,6 @@ components:
         answer_correct_text: null
         answer_incorrect_text: null
     type: radio_button_images_and_text
-    enabled: true
-  -
-    question:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Welche dieser Angebote gehören NICHT zu unseren Kernkompetenzen?'
-    global_feedback: false
-    is_illustration: true
-    checkboxes:
-      -
-        image: uxdesign1.png
-        image_overlay_text: 'UX design'
-        correct: false
-        revealer: null
-        answer_correct_text: null
-        answer_incorrect_text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: Falsch
-      -
-        image: uxdesign2.png
-        image_overlay_text: 'Komplexe Schnittstellen'
-        correct: true
-        revealer: null
-        answer_correct_text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: Richtig
-        answer_incorrect_text: null
-      -
-        image: uxdesign3.png
-        image_overlay_text: Eigenentwicklungen
-        correct: false
-        revealer: null
-        answer_correct_text: null
-        answer_incorrect_text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: Falsch
-      -
-        image: uxdesign4.png
-        image_overlay_text: 'Marketing- kampagnen'
-        correct: true
-        revealer: null
-        answer_correct_text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: Richtig
-        answer_incorrect_text: null
-    type: checkbox_images
     enabled: true
   -
     question:
