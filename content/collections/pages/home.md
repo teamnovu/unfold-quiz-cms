@@ -36,7 +36,7 @@ completion_feedback:
 mandelbaerli_text: 'Hol dir jetzt dein Mandelbärli an unserem Stand ab! Zeig uns dafür deine Punktzahl.'
 no_manderlbaerli_text: 'Auch wir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab wenn du noch keines bekommen hast.'
 updated_by: 3ef1c86e-b7fb-459b-9238-c3e41f033ec1
-updated_at: 1646746783
+updated_at: 1646747126
 main_title: 'Nimm jetzt am novu Quiz teil und gewinne tolle Preise!'
 register_title: 'Hinterlege deine Daten, um an dem Wettbewerb teilzunehmen.'
 components:
@@ -838,6 +838,44 @@ components:
         content:
           -
             type: text
+            text: 'Was sind alles Vorteile von einer guten Developer Experience?'
+    global_feedback: true
+    answer_correct:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Bravo, du hast alle Vorteile einer guten Developer Experience erkannt. Eine gute Developer Experience führt zu einer schnelleren Markteinführung des Produkts, einer höheren Zufriedenheit am Arbeitsplatz und im Endeffekt auch zur besseren User Experience.'
+    answer_incorrect:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Überleg noch einmal gut. Developer Experience ist die Erfahrung und das Erlebnis, welches ein(e) Entwickler:in beim Entwickeln macht. Das führt zu einer höheren Qualität (UX wird erhöht) und Markteinführung und verkleinert das Risiko von Fluktuation. Zu einer verbesserten Kollaboration führt es nicht zwingend; eher ist diese Grundlage für eine gute Developer Experience.'
+    checkboxes:
+      -
+        answer: 'Schnellere Markteinführung des Produktes'
+        correct: true
+      -
+        answer: 'Weniger Fluktuation im Entwicklungsteam'
+        correct: true
+      -
+        answer: 'Bessere Kollaboration zwischen Entwickler:innen und anderen Beteiligten'
+        correct: false
+      -
+        answer: 'Eine verbesserte User Experience'
+        correct: true
+    type: checkboxes
+    enabled: true
+  -
+    question:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
             text: 'Wer von uns schwingt das Tanzbein und unterrichtet nebenbei Hip-Hop an einer Tanzschule?'
     global_feedback: false
     radio_buttons:
@@ -902,36 +940,63 @@ components:
         content:
           -
             type: text
-            text: 'Was sind alles Vorteile von einer guten Developer Experience?'
-    global_feedback: true
-    answer_correct:
+            text: 'Wer von uns schwingt das Tanzbein und unterrichtet nebenbei Hip-Hop an einer Tanzschule?'
+    global_feedback: false
+    is_illustration: false
+    radio_buttons:
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Bravo, du hast alle Vorteile einer guten Developer Experience erkannt. Eine gute Developer Experience führt zu einer schnelleren Markteinführung des Produkts, einer höheren Zufriedenheit am Arbeitsplatz und im Endeffekt auch zur besseren User Experience.'
-    answer_incorrect:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Überleg noch einmal gut. Developer Experience ist die Erfahrung und das Erlebnis, welches ein(e) Entwickler:in beim Entwickeln macht. Das führt zu einer höheren Qualität (UX wird erhöht) und Markteinführung und verkleinert das Risiko von Fluktuation. Zu einer verbesserten Kollaboration führt es nicht zwingend; eher ist diese Grundlage für eine gute Developer Experience.'
-    checkboxes:
-      -
-        answer: 'Schnellere Markteinführung des Produktes'
-        correct: true
-      -
-        answer: 'Weniger Fluktuation im Entwicklungsteam'
-        correct: true
-      -
-        answer: 'Bessere Kollaboration zwischen Entwickler:innen und anderen Beteiligten'
+        image: strebel.jpg
+        image_overlay_text: Manu
         correct: false
+        revealer: null
+        answer_correct_text: null
+        answer_incorrect_text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Manu ist mehr so Tictoc und Bravo Hits Party. Wir trauen ihm auch zu Hip-Hop zu unterrichten, sind aber dankbar investiert er seine Zeit vor Allem in die Geschäftsführung von novu.'
       -
-        answer: 'Eine verbesserte User Experience'
+        image: joel.jpg
+        image_overlay_text: Joel
         correct: true
-    type: checkboxes
+        revealer: null
+        answer_correct_text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Yes, wenn du einen Old School Hip Hop Beat laufen lässt, dann kommt Joel richtig auf Touren. Seine Körperkoordination ist crazy und deshalb ist er auch ein guter Lehrer.'
+        answer_incorrect_text: null
+      -
+        image: null
+        image_overlay_text: Janis
+        correct: false
+        revealer: null
+        answer_correct_text: null
+        answer_incorrect_text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Janis ist mehr so Rave. Hip Hop gefällt ihm auch, aber der Vibe ist wirklich Rave. Dmmz, dmmmz, dmmz, ab nach Berlin.'
+      -
+        image: null
+        image_overlay_text: Jessica
+        correct: false
+        revealer: null
+        answer_correct_text: null
+        answer_incorrect_text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Jessy schwebt im Winter über Langlaufloipen und klettert im Sommer elegant Felswände hoch. Hip Hop mag sie auch, aber für Tanzunterricht bleibt neben den anderen Hobbys keine Zeit mehr.'
+    type: radio_button_images
     enabled: true
 min_result_for_mandelbaerli: 66
 ---
