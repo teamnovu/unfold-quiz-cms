@@ -36,7 +36,7 @@ completion_feedback:
 mandelbaerli_text: 'Hol dir jetzt dein Mandelbärli an unserem Stand ab! Zeig uns dafür deine Punktzahl.'
 no_manderlbaerli_text: 'Auch wir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab wenn du noch keines bekommen hast.'
 updated_by: 3ef1c86e-b7fb-459b-9238-c3e41f033ec1
-updated_at: 1646747126
+updated_at: 1646747191
 main_title: 'Nimm jetzt am novu Quiz teil und gewinne tolle Preise!'
 register_title: 'Hinterlege deine Daten, um an dem Wettbewerb teilzunehmen.'
 components:
@@ -878,70 +878,6 @@ components:
             type: text
             text: 'Wer von uns schwingt das Tanzbein und unterrichtet nebenbei Hip-Hop an einer Tanzschule?'
     global_feedback: false
-    radio_buttons:
-      -
-        answer: Manuel
-        image: strebel.jpg
-        correct: false
-        revealer: null
-        answer_correct_text: null
-        answer_incorrect_text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Manu ist mehr so Tictoc und Bravo Hits Party. Wir trauen ihm auch zu Hip-Hop zu unterrichten, sind aber dankbar investiert er seine Zeit vor Allem in die Geschäftsführung von novu.'
-      -
-        answer: Joel
-        image: joel.jpg
-        correct: true
-        revealer: null
-        answer_correct_text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Yes, wenn du einen Old School Hip Hop Beat laufen lässt, dann kommt Joel richtig auf Touren. Seine Körperkoordination ist crazy und deshalb ist er auch ein guter Lehrer.'
-        answer_incorrect_text: null
-      -
-        answer: Janis
-        image: janis.jpg
-        correct: false
-        revealer: null
-        answer_correct_text: null
-        answer_incorrect_text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Janis ist mehr so Rave. Hip Hop gefällt ihm auch, aber der Vibe ist wirklich Rave. Dmmz, dmmmz, dmmz, ab nach Berlin.'
-      -
-        answer: Jessica
-        image: jessica.jpg
-        correct: false
-        revealer: null
-        answer_correct_text: null
-        answer_incorrect_text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Jessy schwebt im Winter über Langlaufloipen und klettert im Sommer elegant Felswände hoch. Hip Hop mag sie auch, aber für Tanzunterricht bleibt neben den anderen Hobbys keine Zeit mehr.'
-    type: radio_button_images_and_text
-    enabled: true
-  -
-    question:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Wer von uns schwingt das Tanzbein und unterrichtet nebenbei Hip-Hop an einer Tanzschule?'
-    global_feedback: false
     is_illustration: false
     radio_buttons:
       -
@@ -971,7 +907,7 @@ components:
                 text: 'Yes, wenn du einen Old School Hip Hop Beat laufen lässt, dann kommt Joel richtig auf Touren. Seine Körperkoordination ist crazy und deshalb ist er auch ein guter Lehrer.'
         answer_incorrect_text: null
       -
-        image: null
+        image: janis.jpg
         image_overlay_text: Janis
         correct: false
         revealer: null
@@ -984,7 +920,7 @@ components:
                 type: text
                 text: 'Janis ist mehr so Rave. Hip Hop gefällt ihm auch, aber der Vibe ist wirklich Rave. Dmmz, dmmmz, dmmz, ab nach Berlin.'
       -
-        image: null
+        image: jessica.jpg
         image_overlay_text: Jessica
         correct: false
         revealer: null
