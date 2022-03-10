@@ -35,9 +35,9 @@ completion_feedback:
             text: 'Gratuliere 🤩 du gehörst zu den novu Profis!'
 mandelbaerli_text: 'Hol dir jetzt dein Mandelbärli an unserem Stand ab! Zeig uns dafür deine Punktzahl.'
 no_manderlbaerli_text: 'Auch wir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab wenn du noch keines bekommen hast.'
-updated_by: 3ef1c86e-b7fb-459b-9238-c3e41f033ec1
-updated_at: 1646830302
-main_title: 'Nimm jetzt am novu Quiz teil und gewinne tolle Preise!'
+updated_by: 0492f82b-910c-4782-a2a8-239a336757f3
+updated_at: 1646919701
+main_title: 'Nimm jetzt am novu Quiz teil und gewinne tolle Preise! Jumjum'
 register_title: 'Hinterlege deine Daten, um an dem Wettbewerb teilzunehmen.'
 components:
   -
