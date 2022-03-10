@@ -26,6 +26,10 @@ class Kernel extends ConsoleKernel
     {
         // $schedule->command('inspire')
         //          ->hourly();
+        $schedule->command('horizon:snapshot')->everyFiveMinutes();
+        $schedule->command('queue:prune-failed --hours=96')->daily();
+        // enable this, if you are using batches (Batches table needs to be published with `php artisan queue:batches-table`)!
+        // $schedule->command('queue:prune-batches --hours=96 --unfinished=8')->daily();
     }
 
     /**
