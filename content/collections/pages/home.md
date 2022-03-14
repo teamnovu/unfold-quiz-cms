@@ -36,7 +36,7 @@ completion_feedback:
 mandelbaerli_text: 'Hol dir jetzt dein Mandelbärli an unserem Stand ab! Zeig uns dafür deine Punktzahl.'
 no_manderlbaerli_text: 'Auch wir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab wenn du noch keines bekommen hast.'
 updated_by: 0492f82b-910c-4782-a2a8-239a336757f3
-updated_at: 1646921447
+updated_at: 1647270549
 main_title: 'Nimm jetzt am novu Quiz teil und gewinne tolle Preise!'
 register_title: 'Hinterlege deine Daten, um an dem Wettbewerb teilzunehmen.'
 components:
@@ -79,7 +79,7 @@ components:
         answer_incorrect_text: null
       -
         image: uxdesign3.png
-        image_overlay_text: Eigenentwicklungen
+        image_overlay_text: Eigen-entwicklungen
         correct: false
         revealer: null
         answer_correct_text: null
@@ -92,7 +92,7 @@ components:
                 text: Falsch
       -
         image: uxdesign4.png
-        image_overlay_text: Marketingkampagnen
+        image_overlay_text: Marketing-kampagnen
         correct: true
         revealer: null
         answer_correct_text:
