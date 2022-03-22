@@ -628,4 +628,96 @@ users:
                 answer: 'Yes, wenn du einen Old School Hip Hop Beat laufen lässt, dann kommt Joel richtig auf Touren. Seine Körperkoordination ist crazy und deshalb ist er auch ein guter Lehrer.'
     type: user
     enabled: true
+  -
+    firstname: test
+    lastname: test
+    email: test@madf-.ch
+    company: s
+    mandelbaerli_received: false
+    newsletter: false
+    results:
+      -
+        time_field: '2022-03-22 09:33:00'
+        points: 9
+        total: 15
+        solutions:
+          -
+            answer:
+              -
+                questionIndex: 0
+                question: 'Welche dieser Angebote gehören NICHT zu unseren Kernkompetenzen?'
+                correct: false
+                answer: 'Nicht ganz. Du hast eine unserer Kernkompetenzen ausgewählt. UX Design, komplexe Schnittstellen und auch eigene Entwicklungen – wenn es im Projekt einen Bedarf gibt – können wir ziemlich gut und machen uns auch wirklich Spass. Marketingkampagnen überlassen wir lieber unseren kompetenten Partnern, das ist keine unserer Kernkompetenzen.'
+              -
+                questionIndex: 1
+                question: 'Für welches CMS haben wir einen heimlichen Fanclub gegründet?'
+                correct: false
+                answer: 'Nope, leider nein. Unser Lieblings-CMS ist Statamic. WordPress ist bei uns im Büro mehr ein Schimpfwort, Typ3 ist in der Logik zu technisch und nicht intuitiv zu bedienen und Eigenentwicklungen machen wir nur dort, wo wir mit Statamic und/oder Schnittstellen nicht die gewünschten Resultate erzielen können.'
+              -
+                questionIndex: 2
+                question: 'Wer ist stolzer Hüter unserer Siebträger-Kaffeemaschine und Schöpfer unseres Donnerstagsapéros?'
+                correct: false
+                answer: 'Timo ist unser Webshop-Guru &amp; in anderen Themen versiert. Er wohnt in Winterthur und ist am Donnerstag leider fürs Apéro gar nicht immer da.'
+              -
+                questionIndex: 3
+                question: 'Wann wird eineCheckbox und wann ein Radio-Button verwendet?'
+                correct: true
+                answer: 'Genau. Ein Anwendungsbeispiel kannst du in diesem Quiz nachvollziehen. Checkboxes hast du bei Fragen, wo mehrere Antworten richtig sein können &amp; Radio-Buttons setzen wir ein, wenn nur eine Antwort richtig ist.'
+              -
+                questionIndex: 4
+                question: 'Welche dieser Behauptungen trifft NICHT auf uns zu?'
+                correct: false
+                answer: 'Ein Projekt ist für uns am Ende des Tages nur wirklich erfolgreich, wenn es so viel Freude macht, dass Kunden wieder zu uns kommen. Wir wollen eine langfristige Kundenbeziehung &amp; unsere Websiten sind so aufgebaut, dass man sie immer wieder erweitern kann. Was uns genau so wichtig ist, ist der Teamspirit. Isoliert zu Hause arbeiten mögen die wenigsten von uns.'
+              -
+                questionIndex: 5
+                question: 'Wie viele User gehen bei einer Suche weiter als Seite 1 bei den Google Suchergebnissen?'
+                correct: true
+                answer: 'Right. Es sind wirklich nur 1%. Darum solltest du (mit uns) schauen, dass du dein SEO-Game wirklich richtig gut im Griff hast.'
+              -
+                questionIndex: 6
+                question: 'Wer sitzt fast täglich 3h im Auto im Podcast-Rausch, um seine Team-Kollegen/Kolleginnen zu sehen?'
+                correct: true
+                answer: Correct
+              -
+                questionIndex: 7
+                question: 'Bist auch Du ein:e Usability-Spezialist:in? Welches Modal ist benutzerfreundlicher?'
+                correct: true
+                answer: 'Das UX-Writing ist besser gewählt – zusätzlich werden die Auswahlmöglichkeiten gewichtet dargestellt. Dieses Modal führt so User dank einer visuell hervorgehobenen Empfehlung &amp; hilft, die richtige Entscheidung zu treffen. Icons (Kreuz) ist besser als Text (Schliessen) und es ist auf den ersten Blick klar, dass Daten bei einem Klick gelöscht werden.'
+              -
+                questionIndex: 8
+                question: 'Mit welcher Methode meistern wir viele unsere Projekte?'
+                correct: true
+                answer: 'Right. Scrum it is. Das war doch gar nicht so schwierig. Scrum nutzen wir vor Allem für die grossen Projekte, es hilft uns aber auch bei kleineren Projekten mit weniger grossem Team nach Sprints zu denken und organisieren.'
+              -
+                questionIndex: 9
+                question: 'Welchen Titel hat unser Wunderkind Tom im Jahre 2020 gewonnen?'
+                correct: true
+                answer: 'Richtige Antwort: Richtig. Tom hat sich erfolgreich durch die Aufgaben an den Swiss Skills programmiert und den richtigen Weg zwischen Effizienz und coolen Lösungen gefunden und so seine Kontrahenten gnadenlos ausgestochen.'
+              -
+                questionIndex: 10
+                question: 'Was ist uns für eine erfolgreiche Zusammenarbeit wichtig? (mehrere möglich)'
+                correct: false
+                answer: 'Nicht ganz richtig. Überleg noch einmal gut, wie du uns einschätzen würdest. Wir sind agil, unkompliziert und sehen eine Zusammenarbeit als Partnerschaft. Das ist aber unabhängig vom Projektbudget und wir brauchen dazu auch keine im Detail ausgearbeitete Vorgaben von Seite der Kunden.'
+              -
+                questionIndex: 11
+                question: 'Weshalb heisst Google «Google»?'
+                correct: true
+                answer: 'Genau so wird es erzählt. Googol ist der mathematische Term für eine 1 mit 100 Nullen; einzelne Quellen sprechen von einem Wortspiel, andere von einem Schreibfehler.'
+              -
+                questionIndex: 12
+                question: 'Weshalb verwenden wir Design Thinking in unseren Prozessen?'
+                correct: true
+                answer: 'Richtig. Wir wollen ganz bewusst möglich verschiedene Personen in allen Phasen unserer Projekte an einen Tisch bringen und stark involvieren. So gewinnen Lösungen an Qualität, da die wirklichen Bedürfnisse von Usern frühzeitig und genau erkannt werden.'
+              -
+                questionIndex: 13
+                question: 'Was sind alles Vorteile von einer guten Developer Experience?'
+                correct: false
+                answer: 'Überleg noch einmal gut. Developer Experience ist die Erfahrung und das Erlebnis, welches ein(e) Entwickler:in beim Entwickeln macht. Das führt zu einer höheren Qualität (UX wird erhöht) und Markteinführung und verkleinert das Risiko von Fluktuation. Zu einer verbesserten Kollaboration führt es nicht zwingend; eher ist diese Grundlage für eine gute Developer Experience.'
+              -
+                questionIndex: 14
+                question: 'Wer von uns schwingt das Tanzbein und unterrichtet nebenbei Hip-Hop an einer Tanzschule?'
+                correct: true
+                answer: 'Yes, wenn du einen Old School Hip Hop Beat laufen lässt, dann kommt Joel richtig auf Touren. Seine Körperkoordination ist crazy und deshalb ist er auch ein guter Lehrer.'
+    type: user
+    enabled: true
 ---
