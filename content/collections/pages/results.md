@@ -904,4 +904,21 @@ users:
                 answer: 'Yes, wenn du einen Old School Hip Hop Beat laufen lässt, dann kommt Joel richtig auf Touren. Seine Körperkoordination ist crazy und deshalb ist er auch ein guter Lehrer.'
     type: user
     enabled: true
+  -
+    firstname: bbb
+    lastname: bbb
+    email: bb.gsh@bdg.ch
+    company: null
+    mandelbaerli_received: false
+    newsletter: false
+    results:
+      -
+        time_field: '2022-03-22 14:45:31'
+        points: 0
+        total: 15
+        solutions:
+          -
+            answer: {  }
+    type: user
+    enabled: true
 ---
