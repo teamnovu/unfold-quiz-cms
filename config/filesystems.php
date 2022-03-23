@@ -55,11 +55,24 @@ return [
         ],
 
         'assets' => [
-            'driver' => 'local',
-            'root' => public_path('assets'),
-            'url' => env('APP_URL').'/assets',
+            'driver' => 's3',
+            'key' => env('WAS_ACCESS_KEY_ID'),
+            'secret' => env('WAS_SECRET_ACCESS_KEY'),
+            'region' => env('WAS_DEFAULT_REGION'),
+            'bucket' => env('WAS_BUCKET'),
+            'url' => env('WAS_ENDPOINT').'/'.env('WAS_BUCKET'),
+            'endpoint' => env('WAS_ENDPOINT'),
+            'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
+            'root' => '/assets',
             'visibility' => 'public',
         ],
+
+        // 'assets' => [
+        //     'driver' => 'local',
+        //     'root' => public_path('assets'),
+        //     'url' => env('APP_URL').'/assets',
+        //     'visibility' => 'public',
+        // ],
 
     ],
 
