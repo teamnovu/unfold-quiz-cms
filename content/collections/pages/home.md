@@ -36,7 +36,7 @@ completion_feedback:
 mandelbaerli_text: 'Hol dir jetzt dein Mandelbärli an unserem Stand ab! Zeig uns dafür deine Punktzahl.'
 no_manderlbaerli_text: 'Auch wir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab wenn du noch keines bekommen hast.'
 updated_by: 3ef1c86e-b7fb-459b-9238-c3e41f033ec1
-updated_at: 1648024024
+updated_at: 1648031858
 main_title: 'Nimm jetzt am novu Quiz teil und gewinne tolle Preise!'
 register_title: 'Gib uns deine Daten, um am Wettbewerb teilzunehmen. 😋'
 components:
@@ -423,7 +423,7 @@ components:
             content:
               -
                 type: text
-                text: 'Du bist nah dran, es sind aber bedeutend weniger, nämlich etwa 1%. Darum ist eine gute SEO wichtig für deine Website.'
+                text: 'Du bist nah dran, es sind aber immer noch bedeutend weniger, nämlich etwa 1%. Darum ist eine gute SEO wichtig für deine Website.'
       -
         answer: 32%
         correct: false
@@ -514,7 +514,7 @@ components:
             content:
               -
                 type: text
-                text: 'Nein. Märsu wohnt zwar auch nicht gerade um die Ecke, er ist aber überzeugter ÖV-Nutzer und bis in die Region Thun hat er gar nicht so lange.'
+                text: 'Nein. Märcu wohnt zwar auch nicht gerade um die Ecke, er ist aber überzeugter ÖV-Nutzer und bis in die Region Thun hat er gar nicht so lange.'
         revealer: null
       -
         image: tom.jpg
@@ -677,7 +677,7 @@ components:
             content:
               -
                 type: text
-                text: 'Richtige Antwort: Richtig. Tom hat sich erfolgreich durch die Aufgaben an den Swiss Skills programmiert und den richtigen Weg zwischen Effizienz und coolen Lösungen gefunden und so seine Kontrahenten gnadenlos ausgestochen.'
+                text: 'Richtig. Tom hat sich erfolgreich durch die Aufgaben an den Swiss Skills programmiert und den richtigen Weg zwischen Effizienz und coolen Lösungen gefunden und so seine Kontrahenten gnadenlos ausgestochen.'
         answer_incorrect_text: null
       -
         answer: 'Er ist auf den Forbes 30 under 30 gelistet worden'
@@ -902,7 +902,7 @@ components:
             content:
               -
                 type: text
-                text: 'Manu ist mehr so Tictoc und Bravo Hits Party. Wir trauen ihm auch zu Hip-Hop zu unterrichten, sind aber dankbar investiert er seine Zeit vor Allem in die Geschäftsführung von novu.'
+                text: 'Manu ist mehr so Tictoc und Bravo Hits Party. Wir trauen ihm auch zu, Hip-Hop zu unterrichten, sind aber dankbar investiert er seine Zeit vor Allem in die Geschäftsführung von novu.'
       -
         image: joel.jpg
         image_overlay_text: Joel
@@ -928,7 +928,7 @@ components:
             content:
               -
                 type: text
-                text: 'Janis ist mehr so Rave. Hip Hop gefällt ihm auch, aber der Vibe ist wirklich Rave. Dmmz, dmmmz, dmmz, ab nach Berlin.'
+                text: 'Janis ist mehr so Rave und Indie-Synthpop. Hip Hop gefällt ihm auch, aber der Vibe ist wirklich Rave. Dmmz, dmmmz, dmmz, ab nach Berlin.'
       -
         image: jessica.jpg
         image_overlay_text: Jessica
@@ -941,7 +941,7 @@ components:
             content:
               -
                 type: text
-                text: 'Jessy schwebt im Winter über Langlaufloipen und klettert im Sommer elegant Felswände hoch. Hip Hop mag sie auch, aber für Tanzunterricht bleibt neben den anderen Hobbys keine Zeit mehr.'
+                text: 'Jessy schwebt im Winter über Langlaufloipen und klettert im Sommer elegant Felswände hoch. Hip Hop mag sie auch, aber für Tanzunterricht bleibt neben den anderen Hobbys und UX/UI für dein nächstes Projekt keine Zeit mehr.'
     type: radio_button_images
     enabled: true
 min_result_for_mandelbaerli: 66
