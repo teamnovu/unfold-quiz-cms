@@ -36,7 +36,7 @@ completion_feedback:
 mandelbaerli_text: 'Hol dir jetzt dein Mandelbärli an unserem Stand ab! Zeig uns dafür deine Punktzahl.'
 no_manderlbaerli_text: 'Auch wir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab wenn du noch keines bekommen hast.'
 updated_by: 3ef1c86e-b7fb-459b-9238-c3e41f033ec1
-updated_at: 1648022889
+updated_at: 1648024024
 main_title: 'Nimm jetzt am novu Quiz teil und gewinne tolle Preise!'
 register_title: 'Gib uns deine Daten, um am Wettbewerb teilzunehmen. 😋'
 components:
@@ -118,7 +118,7 @@ components:
         content:
           -
             type: text
-            text: 'Nicht ganz. Du hast eine unserer Kernkompetenzen ausgewählt. UX Design, komplexe Schnittstellen und auch eigene Entwicklungen – wenn es im Projekt einen Bedarf gibt – können wir ziemlich gut und machen uns auch wirklich Spass. Marketingkampagnen überlassen wir lieber unseren kompetenten Partnern, das ist keine unserer Kernkompetenzen.'
+            text: 'Nicht ganz. Du hast eine unserer Kernkompetenzen ausgewählt. UX Design, komplexe Schnittstellen und auch eigene Entwicklungen – wenn es im Projekt einen Bedarf gibt – können wir ziemlich gut und machen uns auch wirklich Spass. Marketingkampagnen überlassen wir lieber unseren kompetenten Partner:innen. Das ist keine unserer Kernkompetenzen.'
   -
     question:
       -
@@ -200,7 +200,7 @@ components:
         content:
           -
             type: text
-            text: 'Wer ist stolzer Hüter unserer Siebträger-Kaffeemaschine und Schöpfer unseres Donnerstagsapéros?'
+            text: 'Wer ist stolzer Hüter unserer Siebträger-Kaffeemaschine und Schöpfer unseres Donnerstagsaperos?'
     global_feedback: false
     is_illustration: false
     radio_buttons:
@@ -216,7 +216,7 @@ components:
             content:
               -
                 type: text
-                text: 'Ruslan trinkt eigentlich selten Kaffee und am Apéro nimmt er vor Allem bei der Umsetzung teil. Er wünscht aber jeden Freitag allen ein schönes Wochenende und wir wetten jeweils, ob er es mal vergisst.'
+                text: 'Ruslan trinkt eigentlich selten Kaffee und am Apero nimmt er vor Allem bei der Umsetzung teil. Er wünscht aber jeden Freitag allen ein schönes Wochenende und wir wetten jeweils, ob er es mal vergisst.'
       -
         image: timo.jpg
         image_overlay_text: Timo
@@ -255,7 +255,7 @@ components:
             content:
               -
                 type: text
-                text: 'Kyle ist zwar vom Koch zum Entwickler konvertierter Entwickler, bezüglich Apéro übernimmt er bei uns aber nur die Stellvertretung.'
+                text: 'Kyle ist zwar ein zum Entwickler konvertierter Koch, und hat die Bratpfanne durch Apples Magic Keyboard ersetzt. Bezüglich Apero übernimmt er bei uns aber nur die Stellvertretung.'
     type: radio_button_images
     enabled: true
   -
@@ -478,17 +478,29 @@ components:
             text: 'Wer sitzt fast täglich 3h im Auto im Podcast-Rausch, um seine Team-Kollegen/Kolleginnen zu sehen?'
     radio_buttons:
       -
-        image: joel.jpg
-        image_overlay_text: 'Joel von Allmen'
+        image: noe.jpg
+        image_overlay_text: 'Noé Sterckx'
         correct: false
         answer_correct_text: null
-        answer_incorrect_text: null
+        answer_incorrect_text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Nein. Noé läuft zwar ab und zu nach Hause und kauft auf dem Weg noch eine gute Flasche Wein oder Raclettekäse beim Chäsbueb, aber auch dafür hat er max. 1h pro Weg.'
         revealer: null
       -
         image: oli.jpg
         image_overlay_text: 'Oliver Kaufmann'
         correct: true
-        answer_correct_text: null
+        answer_correct_text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Genau. Entweder Oli mag Autofahren, oder er hasst Home Office, oder er hat uns super gerne, oder alle drei auf einmal...ja, das ist es.'
         answer_incorrect_text: null
         revealer: null
       -
@@ -496,30 +508,28 @@ components:
         image_overlay_text: 'Marcel Hofer'
         correct: false
         answer_correct_text: null
-        answer_incorrect_text: null
+        answer_incorrect_text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Nein. Märsu wohnt zwar auch nicht gerade um die Ecke, er ist aber überzeugter ÖV-Nutzer und bis in die Region Thun hat er gar nicht so lange.'
         revealer: null
       -
-        image: kyle.jpg
-        image_overlay_text: 'Kyle Werner'
+        image: tom.jpg
+        image_overlay_text: 'Tom Diggelmann'
         correct: false
         answer_correct_text: null
-        answer_incorrect_text: null
+        answer_incorrect_text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Nope. Tom ist gebürtiger Agglo-Berner und hat nun auf Stadtberner gewechselt. Er wohnt ziemlich in der Nähe. Mit den 3 Stunden Weg kann er noch Gipfeli einkaufen, in der Aare schwimmen oder ein längeres Fübi zu sich nehmen.'
         revealer: null
-    global_feedback: true
-    answer_correct:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: Correct
-    answer_incorrect:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: Incorrect
+    global_feedback: false
     is_illustration: false
     type: radio_button_images
     enabled: true
