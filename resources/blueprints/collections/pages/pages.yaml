@@ -169,7 +169,7 @@ sections:
           listable: hidden
           instructions_position: above
       -
-        handle: no_manderlbaerli_text
+        handle: no_mandelbaerli_text
         field:
           antlers: false
           display: 'No Manderlbärli Text'
