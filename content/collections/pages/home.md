@@ -1,7 +1,7 @@
 ---
 id: home
 blueprint: pages
-title: Fragen
+title: Home
 template: home
 topic_title: 'novu Quiz'
 register_checkbox_text: 'Newsletter abonnieren 💌'
@@ -35,8 +35,8 @@ completion_feedback:
             text: 'Gratuliere 🤩 du gehörst nun zu den novu Profis und Anwärter:innen für ganz coole Preise. 😋'
 mandelbaerli_text: 'Hol dir jetzt dein Mandelbärli an unserem Stand ab! Zeig uns dafür deine Punktzahl.'
 no_manderlbaerli_text: 'Auch wir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab wenn du noch keines bekommen hast.'
-updated_by: 3ef1c86e-b7fb-459b-9238-c3e41f033ec1
-updated_at: 1648476257
+updated_by: b5d00412-3221-416a-9bb9-1fcb1ca52b90
+updated_at: 1648476333
 main_title: 'Nimm jetzt am novu Quiz teil und gewinne tolle Preise!'
 register_title: 'Gib uns deine Daten, um am Wettbewerb teilzunehmen. 😋'
 components:
@@ -52,7 +52,7 @@ components:
     is_illustration: true
     checkboxes:
       -
-        image: blackborad.png
+        image: UX-UI@3x-8-1648476267.png
         image_overlay_text: 'UX Design'
         correct: false
         revealer: null
@@ -65,7 +65,7 @@ components:
                 type: text
                 text: Falsch
       -
-        image: desktop.png
+        image: Schnittstellen@3x-8-1648476274.png
         image_overlay_text: 'Komplexe Schnittstellen'
         correct: false
         revealer: null
@@ -78,7 +78,7 @@ components:
                 text: Richtig
         answer_incorrect_text: null
       -
-        image: serverGroup.png
+        image: Webentwicklung@3x-8.png
         image_overlay_text: Eigenentwicklungen
         correct: false
         revealer: null
@@ -91,7 +91,7 @@ components:
                 type: text
                 text: Falsch
       -
-        image: magnifyingGlass.png
+        image: marketing-Kampagnen@3x-8-1648476328.png
         image_overlay_text: Marketingkampagnen
         correct: true
         revealer: null
@@ -863,7 +863,7 @@ components:
         content:
           -
             type: text
-            text: 'Überleg noch einmal gut. Developer Experience ist die Erfahrung und das Erlebnis, welches ein(e) Entwickler:in beim Entwickeln macht. Das führt zu einer höheren Qualität (UX wird erhöht) und schnelleren Markteinführung und verkleinert das Risiko von Fluktuation. Zu einer verbesserten Kollaboration führt es nicht zwingend; eher ist diese Grundlage für eine gute Developer Experience.'
+            text: 'Überleg noch einmal gut. Developer Experience ist die Erfahrung und das Erlebnis, welches ein(e) Entwickler:in beim Entwickeln macht. Das führt zu einer höheren Qualität (UX wird erhöht) und Markteinführung und verkleinert das Risiko von Fluktuation. Zu einer verbesserten Kollaboration führt es nicht zwingend; eher ist diese Grundlage für eine gute Developer Experience.'
     checkboxes:
       -
         answer: 'Schnellere Markteinführung des Produktes'

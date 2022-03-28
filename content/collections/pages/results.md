@@ -560,6 +560,101 @@ users:
                 question: 'Welche dieser Angebote gehören NICHT zu unseren Kernkompetenzen?'
                 correct: false
                 answer: 'Nicht ganz. Du hast eine unserer Kernkompetenzen ausgewählt. UX Design, komplexe Schnittstellen und auch eigene Entwicklungen – wenn es im Projekt einen Bedarf gibt – können wir ziemlich gut und machen uns auch wirklich Spass. Marketingkampagnen überlassen wir lieber unseren kompetenten Partner:innen. Das ist keine unserer Kernkompetenzen.'
+      -
+        time_field: '2022-03-28 14:08:22'
+        points: 2
+        total: 0
+        solutions:
+          -
+            answer:
+              -
+                questionIndex: 0
+                question: 'Welche dieser Angebote gehören NICHT zu unseren Kernkompetenzen?'
+                correct: true
+                answer: 'Genau richtig. Für klassische Marketingkampagnen bist du bei uns an der falschen Adresse. Wir konzentrieren uns lieber auf unsere Kernkompetenzen: Konzept &amp; Design sowie Entwicklung von Websiten und Webapplikationen und alles was dazu gehört.'
+                storedAnswers:
+                  -
+                    checked: false
+                    image:
+                      id: 'assets::UX-UI@3x-8-1648476267.png'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/UX-UI@3x-8-1648476267.png'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/UX-UI@3x-8-1648476267.png'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/UX-UI@3x-8-1648476267.png'
+                      extension: png
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1272
+                      height: 1273
+                      focus_css: '50% 50%'
+                    overlayText: 'UX Design'
+                  -
+                    checked: false
+                    image:
+                      id: 'assets::Schnittstellen@3x-8-1648476274.png'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/Schnittstellen@3x-8-1648476274.png'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/Schnittstellen@3x-8-1648476274.png'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/Schnittstellen@3x-8-1648476274.png'
+                      extension: png
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1273
+                      height: 1273
+                      focus_css: '50% 50%'
+                    overlayText: 'Komplexe Schnittstellen'
+                  -
+                    checked: false
+                    image:
+                      id: 'assets::Webentwicklung@3x-8.png'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/Webentwicklung@3x-8.png'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/Webentwicklung@3x-8.png'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/Webentwicklung@3x-8.png'
+                      extension: png
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1273
+                      height: 1273
+                      focus_css: '50% 50%'
+                    overlayText: Eigenentwicklungen
+                  -
+                    checked: true
+                    image:
+                      id: 'assets::marketing-Kampagnen@3x-8-1648476328.png'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/marketing-Kampagnen@3x-8-1648476328.png'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/marketing-Kampagnen@3x-8-1648476328.png'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/marketing-Kampagnen@3x-8-1648476328.png'
+                      extension: png
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1273
+                      height: 1273
+                      focus_css: '50% 50%'
+                    overlayText: Marketingkampagnen
+              -
+                questionIndex: 1
+                question: 'Für welches CMS haben wir einen heimlichen Fanclub gegründet?'
+                correct: true
+                answer: 'Absolut richtig. Statamic ist unser absolutes Lieblings-CMS. Es ist simpel, intuitiv bedienbar, komponentenbasiert und ein wirklich performantes Tool für die Entwicklung von massgeschneiderten Webseiten.'
+                storedAnswers:
+                  -
+                    answer: WordPress
+                    checked: false
+                  -
+                    answer: Typo3
+                    checked: false
+                  -
+                    answer: Statamic
+                    checked: true
+                  -
+                    answer: Eigenentwicklung
+                    checked: false
     type: user
     enabled: true
   -
