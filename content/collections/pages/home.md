@@ -559,14 +559,14 @@ components:
     radio_buttons:
       -
         answer: 'Modal 1'
-        image: modal1-1645713668.png
+        image: modal-answer-correct.jpg
         correct: true
         revealer: null
         answer_correct_text: null
         answer_incorrect_text: null
       -
         answer: 'Modal 2'
-        image: modal2-1645713672.png
+        image: modal-answer-incorrect.jpg
         correct: false
         revealer: null
         answer_correct_text: null
