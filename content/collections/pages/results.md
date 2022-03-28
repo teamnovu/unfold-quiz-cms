@@ -541,6 +541,13 @@ users:
         solutions:
           -
             answer: {  }
+      -
+        time_field: '2022-03-28 09:05:50'
+        points: 0
+        total: 15
+        solutions:
+          -
+            answer: {  }
     type: user
     enabled: true
   -
