@@ -1567,6 +1567,508 @@ users:
                 question: 'Wer von uns schwingt das Tanzbein und unterrichtet nebenbei Hip-Hop an einer Tanzschule?'
                 correct: true
                 answer: 'Yes, wenn du einen Old School Hip Hop Beat laufen lässt, dann kommt Joel richtig auf Touren. Seine Körperkoordination ist crazy und deshalb ist er auch ein guter Lehrer.'
+      -
+        time_field: '2022-03-28 18:02:29'
+        points: 0
+        total: 15
+        solutions:
+          -
+            answer:
+              -
+                questionIndex: 0
+                question: 'Welche dieser Angebote gehören NICHT zu unseren Kernkompetenzen?'
+                correct: false
+                answer: 'Nicht ganz. Du hast eine unserer Kernkompetenzen ausgewählt. UX Design, komplexe Schnittstellen und auch eigene Entwicklungen – wenn es im Projekt einen Bedarf gibt – können wir ziemlich gut und machen uns auch wirklich Spass. Marketingkampagnen überlassen wir lieber unseren kompetenten Partner:innen. Das ist keine unserer Kernkompetenzen.'
+                storedAnswers:
+                  -
+                    checked: true
+                    image:
+                      id: 'assets::UX-UI@3x-8-1648476267.png'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/UX-UI@3x-8-1648476267.png'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/UX-UI@3x-8-1648476267.png'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/UX-UI@3x-8-1648476267.png'
+                      extension: png
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1272
+                      height: 1273
+                      focus_css: '50% 50%'
+                    overlayText: 'UX Design'
+                  -
+                    checked: false
+                    image:
+                      id: 'assets::Schnittstellen@3x-8-1648476274.png'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/Schnittstellen@3x-8-1648476274.png'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/Schnittstellen@3x-8-1648476274.png'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/Schnittstellen@3x-8-1648476274.png'
+                      extension: png
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1273
+                      height: 1273
+                      focus_css: '50% 50%'
+                    overlayText: 'Komplexe Schnittstellen'
+                  -
+                    checked: false
+                    image:
+                      id: 'assets::Webentwicklung@3x-8.png'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/Webentwicklung@3x-8.png'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/Webentwicklung@3x-8.png'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/Webentwicklung@3x-8.png'
+                      extension: png
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1273
+                      height: 1273
+                      focus_css: '50% 50%'
+                    overlayText: Eigenentwicklungen
+                  -
+                    checked: false
+                    image:
+                      id: 'assets::marketing-Kampagnen@3x-8-1648476328.png'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/marketing-Kampagnen@3x-8-1648476328.png'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/marketing-Kampagnen@3x-8-1648476328.png'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/marketing-Kampagnen@3x-8-1648476328.png'
+                      extension: png
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1273
+                      height: 1273
+                      focus_css: '50% 50%'
+                    overlayText: Marketingkampagnen
+              -
+                questionIndex: 1
+                question: 'Für welches CMS haben wir einen heimlichen Fanclub gegründet?'
+                correct: false
+                answer: 'Nope, leider nein. Unser Lieblings-CMS ist Statamic. WordPress ist bei uns im Büro mehr ein Schimpfwort, Typ3 ist in der Logik zu technisch und nicht intuitiv zu bedienen und Eigenentwicklungen machen wir nur dort, wo wir mit Statamic und/oder Schnittstellen nicht die gewünschten Resultate erzielen können.'
+                storedAnswers:
+                  -
+                    answer: WordPress
+                    checked: false
+                  -
+                    answer: Typo3
+                    checked: true
+                  -
+                    answer: Statamic
+                    checked: false
+                  -
+                    answer: Eigenentwicklung
+                    checked: false
+              -
+                questionIndex: 2
+                question: 'Wer ist stolzer Hüter unserer Siebträger-Kaffeemaschine und Schöpfer unseres Donnerstagsaperos?'
+                correct: false
+                answer: 'Ruslan trinkt eigentlich selten Kaffee und am Apero nimmt er vor Allem bei der Umsetzung teil. Er wünscht aber jeden Freitag allen ein schönes Wochenende und wir wetten jeweils, ob er es mal vergisst.'
+                storedAnswers:
+                  -
+                    image:
+                      id: 'assets::ruslan.jpg'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/ruslan.jpg'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/ruslan.jpg'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/ruslan.jpg'
+                      extension: jpg
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1000
+                      height: 1000
+                      focus_css: '50% 50%'
+                    overlayText: Ruslan
+                    checked: true
+                  -
+                    image:
+                      id: 'assets::timo.jpg'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/timo.jpg'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/timo.jpg'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/timo.jpg'
+                      extension: jpg
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1000
+                      height: 1000
+                      focus_css: '50% 50%'
+                    overlayText: Timo
+                    checked: false
+                  -
+                    image:
+                      id: 'assets::zumi.png'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/zumi.png'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/zumi.png'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/zumi.png'
+                      extension: png
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1000
+                      height: 1000
+                      focus_css: '50% 50%'
+                    overlayText: Zumi
+                    checked: false
+                  -
+                    image:
+                      id: 'assets::kyle.jpg'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/kyle.jpg'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/kyle.jpg'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/kyle.jpg'
+                      extension: jpg
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1000
+                      height: 1000
+                      focus_css: '50% 50%'
+                    overlayText: Kyle
+                    checked: false
+              -
+                questionIndex: 3
+                question: 'Wann wird eine Checkbox und wann ein Radio-Button verwendet?'
+                correct: false
+                answer: 'Nicht ganz. Checkboxen und Radio-Buttons haben beide ihren ganz bestimmten Zweck. Die Verwendung ist abhängig davon, welche Art von Auswahlmöglichkeit im Konzept als besser geeignet erachtet wird, resp. für die Frage mehr Sinn macht.'
+                storedAnswers:
+                  -
+                    answer: 'Checkboxen werden verwendet, wenn mehrere Angaben ausgewählt werden können. Radio-Buttons werden bei nur einer möglichen Auswahl eingesetzt.'
+                    checked: false
+                  -
+                    answer: 'Die Verwendung von Checkboxen oder Radio-Button ist abhängig vom Design. Es wird das eingesetzt, was besser zum Design passt.'
+                    checked: true
+                  -
+                    answer: 'Radio-Buttons sind aufwendiger umzusetzen. Daher werden sie nur für Projekte mit einem grösseren Budget verwendet.'
+                    checked: false
+              -
+                questionIndex: 4
+                question: 'Welche dieser Behauptungen trifft NICHT auf uns zu?'
+                correct: false
+                answer: 'Das haben wir uns wirklich gross auf die Fahne geschrieben. Wir schätzen den partnerschaftlichen Austausch mit Kunden und sehen Vertrauen als Grundlage für unsere Qualität. Was wir nicht mögen, ist alleine zuhause im Home Office rumsitzen und remote zusammenarbeiten – isoliert ist nicht so unser Ding.'
+                storedAnswers:
+                  -
+                    answer: 'Wir setzen auf Qualität und Vertrauen'
+                    checked: true
+                  -
+                    answer: 'Wir arbeiten gerne isoliert'
+                    checked: false
+                  -
+                    answer: 'Wir sind weitsichtig und denken nachhaltig'
+                    checked: false
+                  -
+                    answer: 'Apéros gehören bei uns in die Wochenplanung'
+                    checked: false
+              -
+                questionIndex: 5
+                question: 'Wie viele User gehen bei einer Suche weiter als Seite 1 bei den Google Suchergebnissen?'
+                correct: false
+                answer: 'Hihi, hast du dich vertippt? Entweder du hast es nicht so mit Prozenten, oder du glaubst wirklich daran, dass Google-Nutzer neugierig sind, was auf Seite 2 ff. zu finden ist. Die richtige Antwort ist 1%.'
+                storedAnswers:
+                  -
+                    answer: 8%
+                    checked: false
+                  -
+                    answer: 32%
+                    checked: true
+                  -
+                    answer: 10%
+                    checked: false
+                  -
+                    answer: 1%
+                    checked: false
+              -
+                questionIndex: 6
+                question: 'Wer sitzt fast täglich 3h im Auto im Podcast-Rausch, um seine Team-Kollegen/Kolleginnen zu sehen?'
+                correct: false
+                answer: 'Nope. Tom ist gebürtiger Agglo-Berner und hat nun auf Stadtberner gewechselt. Er wohnt ziemlich in der Nähe. Mit den 3 Stunden Weg kann er noch Gipfeli einkaufen, in der Aare schwimmen oder ein längeres Fübi zu sich nehmen.'
+                storedAnswers:
+                  -
+                    image:
+                      id: 'assets::noe.jpg'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/noe.jpg'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/noe.jpg'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/noe.jpg'
+                      extension: jpg
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1000
+                      height: 1000
+                      focus_css: '50% 50%'
+                    overlayText: 'Noé Sterckx'
+                    checked: false
+                  -
+                    image:
+                      id: 'assets::oli.jpg'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/oli.jpg'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/oli.jpg'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/oli.jpg'
+                      extension: jpg
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1000
+                      height: 1000
+                      focus_css: '50% 50%'
+                    overlayText: 'Oliver Kaufmann'
+                    checked: false
+                  -
+                    image:
+                      id: 'assets::marcel.jpg'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/marcel.jpg'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/marcel.jpg'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/marcel.jpg'
+                      extension: jpg
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1000
+                      height: 1000
+                      focus_css: '50% 50%'
+                    overlayText: 'Marcel Hofer'
+                    checked: false
+                  -
+                    image:
+                      id: 'assets::tom.jpg'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/tom.jpg'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/tom.jpg'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/tom.jpg'
+                      extension: jpg
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1049
+                      height: 1000
+                      focus_css: '50% 50%'
+                    overlayText: 'Tom Diggelmann'
+                    checked: true
+              -
+                questionIndex: 7
+                question: 'Bist auch Du ein:e Usability-Spezialist:in? Welches Modal ist benutzerfreundlicher?'
+                correct: false
+                answer: 'Falsch. Wir finden dieses Modal nicht ideal. Es fehlt eine Gewichtung der Antwortmöglichkeiten und du musst die Frage genau durchlesen, um zu wissen, was bei einem Klick passiert. Schliessen in der Ecke oben wird generell weniger gut erkannt als ein Kreuz-Icon (idealerweise mit Hover-Effekt).'
+                storedAnswers:
+                  -
+                    answer: 'Modal 1'
+                    image:
+                      id: 'assets::modal-1.png'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/modal-1.png'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/modal-1.png'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/modal-1.png'
+                      extension: png
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 2092
+                      height: 1452
+                      focus_css: '50% 50%'
+                    checked: false
+                  -
+                    answer: 'Modal 2'
+                    image:
+                      id: 'assets::modal2.png'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/modal2.png'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/modal2.png'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/modal2.png'
+                      extension: png
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 2092
+                      height: 1452
+                      focus_css: '50% 50%'
+                    checked: true
+              -
+                questionIndex: 8
+                question: 'Mit welcher Methode meistern wir viele unsere Projekte?'
+                correct: false
+                answer: 'Wir fluchen schon ab und zu, wenn gerade etwas nicht klappt. Aber Scum (engl. für Abschaum) nutzen wir selten. Wer wird Millionär? Du wohl eher nicht, aber dir fehlt nur ein Buchstabe. Die richtige Lösung ist Scrum.'
+                storedAnswers:
+                  -
+                    answer: Meilensteintrendanalyse
+                    checked: false
+                  -
+                    answer: Scrum
+                    checked: false
+                  -
+                    answer: Scum
+                    checked: true
+                  -
+                    answer: Hermes
+                    checked: false
+              -
+                questionIndex: 9
+                question: 'Welchen Titel hat unser Wunderkind Tom im Jahre 2020 gewonnen?'
+                correct: false
+                answer: 'Leider falsch, Tom nimmt deine Antwort trotzdem als Kompliment, bedankt sich schmunzelnd und bereitet sich auf die Teilnahme an den World Skills (Berufs-Weltmeisterschaften) vor. Er hat nämlich die Swiss Skills für sich entschieden und darf sich auf seinem Beruf Schweizermeister nennen.'
+                storedAnswers:
+                  -
+                    answer: 'Er ist Mister Schweiz geworden'
+                    checked: true
+                  -
+                    answer: 'Er ist Badmintonspieler des Jahres geworden'
+                    checked: false
+                  -
+                    answer: 'Er wurde Schweizermeister als Entwickler an den Swiss Skills'
+                    checked: false
+                  -
+                    answer: 'Er ist auf den Forbes 30 under 30 gelistet worden'
+                    checked: false
+              -
+                questionIndex: 10
+                question: 'Was ist uns für eine erfolgreiche Zusammenarbeit wichtig? (mehrere möglich)'
+                correct: false
+                answer: 'Nicht ganz richtig. Überleg noch einmal gut, wie du uns einschätzen würdest. Wir sind agil, unkompliziert und sehen eine Zusammenarbeit als Partnerschaft. Das ist aber unabhängig vom Projektbudget und wir brauchen dazu auch keine im Detail ausgearbeitete Vorgaben von Seite der Kunden.'
+                storedAnswers:
+                  -
+                    answer: 'Menschliche Harmonie und respektvoller Umgang'
+                    checked: false
+                  -
+                    answer: 'Aktiver Austausch'
+                    checked: false
+                  -
+                    answer: 'Ein grosses Projektbudget'
+                    checked: true
+                  -
+                    answer: 'Detaillierte und ausgearbeitete Vorgaben von Kund:innen'
+                    checked: false
+              -
+                questionIndex: 11
+                question: 'Weshalb heisst Google «Google»?'
+                correct: false
+                answer: 'Google’s Office Policy ermöglicht es, Mitarbeitenden Hunde zur Arbeit mitzunehmen. So viel wir wissen, hat aber Larry Page keinen Hund der Google heisst. Wäre ein bisschen kitschig, oder? Richtig ist die Antwort Schreibfehler; Google ist aus dem Wort Googol entstanden.'
+                storedAnswers:
+                  -
+                    answer: 'Google ist das Wort für «Suche» in einem hawaianischen Dialekt.'
+                    checked: false
+                  -
+                    answer: 'Google ist durch einen Schreibfehler aus dem ursprünglichen Wort Googol (mathematischer Term für eine 1 mit 100 Nullen) entstanden.'
+                    checked: false
+                  -
+                    answer: 'Die ersten Skizzen von Google basieren auf der Programmiersprache Go, welche von den Gründern von Google entworfen wurde.'
+                    checked: false
+                  -
+                    answer: 'Google war der Name des ersten Hundes von Google-Mitgründer Larry Page.'
+                    checked: true
+              -
+                questionIndex: 12
+                question: 'Weshalb verwenden wir Design Thinking in unseren Prozessen?'
+                correct: false
+                answer: 'Design Thinking klingt zugegebenermassen innovativ und ist vielleicht in Branchen verbreitet, wo es viele kreative Menschen gibt. Mit dem Projektbudget hat Design Thinking wirklich keinen direkten Zusammenhang. Vielmehr geht es bei dieser Methode darum, alle beteiligten Personen im Projekt in der Lösungsentwicklung direkt zu involvieren und so den User ins Zentrum zu nehmen, agil zu arbeiten und Prozesse zu verkürzen.'
+                storedAnswers:
+                  -
+                    answer: 'Design Thinking klingt innovativ. Dies erhöht unsere Chancen ein neues Projekt zu gewinnen.'
+                    checked: false
+                  -
+                    answer: 'Mit der Design Thinking Methode können die verschiedene Personen aus unterschiedlichen Bereichen involviert werden und an der Lösungsfindung teilnehmen.'
+                    checked: false
+                  -
+                    answer: 'Design Thinking ist besonders für kreative Menschen geeignet. Daher passt diese Methode besonders gut für unser Unternehmen.'
+                    checked: false
+                  -
+                    answer: 'Mit der Design Thinking Methode hat man automatisch ein grösseres Budget für das Projekt.'
+                    checked: true
+              -
+                questionIndex: 13
+                question: 'Was sind alles Vorteile von einer guten Developer Experience?'
+                correct: false
+                answer: 'Überleg noch einmal gut. Developer Experience ist die Erfahrung und das Erlebnis, welches ein(e) Entwickler:in beim Entwickeln macht. Das hilft, eine schnelle Markteinführung möglich zu machen und verkleinert das Risiko von Fluktuation. Zu einer verbesserten Kollaboration &amp; einer genau definierten Problemstellung führt es nicht zwingend; eher sind diese Grundlagen für eine gute Developer Experience.'
+                storedAnswers:
+                  -
+                    answer: 'Schnellere Markteinführung des Produktes'
+                    checked: false
+                  -
+                    answer: 'Weniger Fluktuation im Entwicklungsteam'
+                    checked: false
+                  -
+                    answer: 'Bessere Kollaboration zwischen Entwickler:innen und anderen Beteiligten'
+                    checked: false
+                  -
+                    answer: 'Genau definierte Problemstellung'
+                    checked: true
+              -
+                questionIndex: 14
+                question: 'Wer von uns schwingt das Tanzbein und unterrichtet nebenbei Hip-Hop an einer Tanzschule?'
+                correct: false
+                answer: 'Jessy schwebt im Winter über Langlaufloipen und klettert im Sommer elegant Felswände hoch. Hip Hop mag sie auch, aber für Tanzunterricht bleibt neben den anderen Hobbys und UX/UI für dein nächstes Projekt keine Zeit mehr.'
+                storedAnswers:
+                  -
+                    image:
+                      id: 'assets::strebel.jpg'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/strebel.jpg'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/strebel.jpg'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/strebel.jpg'
+                      extension: jpg
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1000
+                      height: 1000
+                      focus_css: '50% 50%'
+                    overlayText: Manu
+                    checked: false
+                  -
+                    image:
+                      id: 'assets::joel.jpg'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/joel.jpg'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/joel.jpg'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/joel.jpg'
+                      extension: jpg
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1049
+                      height: 1000
+                      focus_css: '50% 50%'
+                    overlayText: Joel
+                    checked: false
+                  -
+                    image:
+                      id: 'assets::janis.jpg'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/janis.jpg'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/janis.jpg'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/janis.jpg'
+                      extension: jpg
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 3994
+                      height: 3994
+                      focus_css: '50% 50%'
+                    overlayText: Janis
+                    checked: false
+                  -
+                    image:
+                      id: 'assets::jessica.jpg'
+                      url: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/jessica.jpg'
+                      permalink: 'https://s3.eu-central-1.wasabisys.com/unfold-quiz/assets/jessica.jpg'
+                      api_url: 'https://unfold-quiz-cms.guava.novu.ch/api/assets/assets/jessica.jpg'
+                      extension: jpg
+                      is_image: true
+                      alt: null
+                      placeholder: null
+                      focus: 50-50-1
+                      width: 1000
+                      height: 1000
+                      focus_css: '50% 50%'
+                    overlayText: Jessica
+                    checked: true
     type: user
     enabled: true
   -
