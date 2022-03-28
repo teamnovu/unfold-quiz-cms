@@ -35,8 +35,8 @@ completion_feedback:
             text: 'Gratuliere 🤩 du gehörst nun zu den novu Profis und Anwärter:innen für ganz coole Preise. 😋'
 mandelbaerli_text: 'Hol dir jetzt dein Mandelbärli an unserem Stand ab! Zeig uns dafür deine Punktzahl.'
 no_manderlbaerli_text: 'Auch wir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab wenn du noch keines bekommen hast.'
-updated_by: 0492f82b-910c-4782-a2a8-239a336757f3
-updated_at: 1648471128
+updated_by: 3ef1c86e-b7fb-459b-9238-c3e41f033ec1
+updated_at: 1648471836
 main_title: 'Nimm jetzt am novu Quiz teil und gewinne tolle Preise!'
 register_title: 'Gib uns deine Daten, um am Wettbewerb teilzunehmen. 😋'
 components:
@@ -67,7 +67,7 @@ components:
       -
         image: desktop.png
         image_overlay_text: 'Komplexe Schnittstellen'
-        correct: true
+        correct: false
         revealer: null
         answer_correct_text:
           -
