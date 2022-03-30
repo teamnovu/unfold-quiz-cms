@@ -38,13 +38,13 @@ fields:
       display: Company
       type: text
       icon: text
-      listable: hidden
+      listable: true
       instructions_position: above
   -
     handle: newsletter
     field:
       default: false
-      display: newsletter
+      display: Newsletter
       type: toggle
       icon: toggle
       listable: hidden
@@ -65,97 +65,44 @@ fields:
     field:
       fields:
         -
-          handle: time_field
+          handle: completed_at
           field:
-            display: 'Time Field'
-            type: time
-            icon: time
+            mode: single
+            time_enabled: true
+            time_required: false
+            full_width: false
+            inline: false
+            columns: 1
+            rows: 1
+            display: 'Completion Date'
+            type: date
+            icon: date
             listable: hidden
             instructions_position: above
+            width: 50
+            format: 'Y-m-d H:i:s'
         -
           handle: points
           field:
             display: Points
             type: integer
             icon: integer
-            width: 50
             listable: hidden
             instructions_position: above
+            width: 25
         -
           handle: total
           field:
             display: Total
             type: integer
             icon: integer
-            width: 50
             listable: hidden
             instructions_position: above
-        -
-          handle: solutions
-          field:
-            fields:
-              -
-                handle: answer
-                field:
-                  fields:
-                    -
-                      handle: questionIndex
-                      field:
-                        display: 'Question Index'
-                        type: integer
-                        icon: integer
-                        listable: hidden
-                        instructions_position: above
-                        width: 50
-                    -
-                      handle: correct
-                      field:
-                        input_type: text
-                        antlers: false
-                        display: Correct
-                        type: text
-                        icon: text
-                        listable: hidden
-                        instructions_position: above
-                        width: 50
-                    -
-                      handle: question
-                      field:
-                        input_type: text
-                        antlers: false
-                        display: Question
-                        type: text
-                        icon: text
-                        listable: hidden
-                        instructions_position: above
-                    -
-                      handle: answer
-                      field:
-                        input_type: text
-                        antlers: false
-                        display: Answer
-                        type: text
-                        icon: text
-                        listable: hidden
-                        instructions_position: above
-                  mode: stacked
-                  reorderable: true
-                  display: Answer
-                  type: grid
-                  icon: grid
-                  listable: hidden
-                  instructions_position: above
-            mode: stacked
-            reorderable: true
-            display: Solutions
-            type: grid
-            icon: grid
-            listable: hidden
-            instructions_position: above
-      mode: stacked
+            width: 25
+      mode: table
       reorderable: true
       display: Results
       type: grid
       icon: grid
-      listable: hidden
+      listable: true
       instructions_position: above
