@@ -12,6 +12,10 @@ results:
     completed_at: '2022-03-30 22:48:47'
     points: 13
     total: 15
+  -
+    completed_at: '2022-03-30 23:01:20'
+    points: 2
+    total: 15
 title: 'Manuel Strebel'
 firstname: Manuel
 lastname: Strebel
