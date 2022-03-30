@@ -10,6 +10,7 @@ fields:
       icon: text
       listable: hidden
       instructions_position: above
+      width: 50
   -
     handle: lastname
     field:
@@ -20,6 +21,7 @@ fields:
       icon: text
       listable: hidden
       instructions_position: above
+      width: 50
   -
     handle: email
     field:
@@ -30,6 +32,7 @@ fields:
       icon: text
       listable: hidden
       instructions_position: above
+      width: 50
   -
     handle: company
     field:
@@ -40,6 +43,7 @@ fields:
       icon: text
       listable: true
       instructions_position: above
+      width: 50
   -
     handle: newsletter
     field:
@@ -54,7 +58,7 @@ fields:
     handle: mandelbaerli_received
     field:
       default: false
-      display: 'Mandelbärli Received'
+      display: 'Mandelbärli received'
       type: toggle
       icon: toggle
       width: 50
