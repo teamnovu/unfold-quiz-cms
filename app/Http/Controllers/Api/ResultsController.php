@@ -53,10 +53,10 @@ class ResultsController extends Controller
                 'mandelbaerli_received' => $payload['mandelbaerliReceived'],
                 'newsletter' => $payload['user']['newsletter'],
                 'results' => [[
-                    'time_field' =>  date('Y-m-d H:i:s'),
+                    'time_field' => date('Y-m-d H:i:s'),
                     'points' => $payload['points'],
                     'total' => $payload['total'],
-                    'solutions' => [['answer' =>  $payload['solutions']]],
+                    'solutions' => [['answer' => $payload['solutions']]],
                 ]],
                 'type' => 'user',
                 'enabled' => true,
@@ -74,10 +74,10 @@ class ResultsController extends Controller
         // add result to existing user
         if (! $isNewUser) {
             $newResults = [
-                'time_field' =>  date('Y-m-d H:i:s'),
+                'time_field' => date('Y-m-d H:i:s'),
                 'points' => $payload['points'],
                 'total' => $payload['total'],
-                'solutions' => [['answer' =>  $payload['solutions']]],
+                'solutions' => [['answer' => $payload['solutions']]],
             ];
             $storedUsers[$foundUserIndex]['firstname'] = $payload['user']['firstname'];
             $storedUsers[$foundUserIndex]['lastname'] = $payload['user']['lastname'];
