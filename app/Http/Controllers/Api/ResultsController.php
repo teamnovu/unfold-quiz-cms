@@ -20,9 +20,8 @@ class ResultsController extends Controller
         $userEmail = $payload['user']['email'];
 
         $entry = Entry::find('results');
-        if (! $entry) {
-            return 404;
-        }
+
+        abort_if(! $entry, 404);
 
         // strip answer texts
         foreach ($payload['solutions'] as &$value) {
@@ -31,66 +30,52 @@ class ResultsController extends Controller
         }
 
         // check if user already exists
-        $storedUsers = $entry->get('users');
+        $storedUsers = $entry->get('users') ?: [];
 
-        if ($storedUsers == null) {
-            $storedUsers = [];
-        }
-        $foundUserIndex = array_search($userEmail, array_column($storedUsers, 'email'));
+        $userIndex = array_search($userEmail, array_column($storedUsers, 'email')) ?: null;
 
-        $isNewUser = ! is_numeric($foundUserIndex);
+        ray($storedUsers);
+        ray($userIndex);
 
-        // return value
-        $mandelbaerliReceived = false;
-
-        // create new user
-        if ($isNewUser) {
-            $newUser = [
-                'firstname' => $payload['user']['firstname'],
-                'lastname' => $payload['user']['lastname'],
-                'email' => $userEmail,
-                'company' => $payload['user']['company'],
-                'mandelbaerli_received' => $payload['mandelbaerliReceived'],
-                'newsletter' => $payload['user']['newsletter'],
-                'results' => [[
-                    'time_field' => date('Y-m-d H:i:s'),
-                    'points' => $payload['points'],
-                    'total' => $payload['total'],
-                    'solutions' => [['answer' => $payload['solutions']]],
-                ]],
+        if ($userIndex === null) {
+            $userIndex = count($storedUsers);
+            $storedUsers[$userIndex] = [
                 'type' => 'user',
                 'enabled' => true,
+                'results' => [],
+                'email' => $payload['user']['email'],
+                'mandelbaerli_received' => false,
             ];
-            if ($storedUsers) {
-                $entry->set('users', array_merge($storedUsers, [$newUser]));
-            } else {
-                $entry->set('users', [$newUser]);
-            }
-
-            $entry->save();
-            $mandelbaerliReceived = $payload['mandelbaerliReceived'];
         }
 
-        // add result to existing user
-        if (! $isNewUser) {
-            $newResults = [
-                'time_field' => date('Y-m-d H:i:s'),
-                'points' => $payload['points'],
-                'total' => $payload['total'],
-                'solutions' => [['answer' => $payload['solutions']]],
-            ];
-            $storedUsers[$foundUserIndex]['firstname'] = $payload['user']['firstname'];
-            $storedUsers[$foundUserIndex]['lastname'] = $payload['user']['lastname'];
-            $storedUsers[$foundUserIndex]['company'] = $payload['user']['company'];
-            $storedUsers[$foundUserIndex]['newsletter'] = $payload['user']['newsletter'];
-            $storedUsers[$foundUserIndex]['mandelbaerli_received'] ? null : $storedUsers[$foundUserIndex]['mandelbaerli_received'] = $payload['mandelbaerliReceived'];
-            $storedUsers[$foundUserIndex]['results'] = array_merge($storedUsers[$foundUserIndex]['results'], [$newResults]);
+        $result = [
+            'time_field' => date('Y-m-d H:i:s'),
+            'points' => $payload['points'],
+            'total' => $payload['total'],
+            'solutions' => [['answer' => $payload['solutions']]],
+        ];
 
-            $mandelbaerliReceived = $storedUsers[$foundUserIndex]['mandelbaerli_received'];
-            $entry->set('users', $storedUsers);
-            $entry->save();
-        }
+        $mandelbaerliReceived = $storedUsers[$userIndex]['mandelbaerli_received'];
+        ray($storedUsers[$userIndex]['mandelbaerli_received'], $payload['mandelbaerli_score_achieved']);
 
-        return $mandelbaerliReceived;
+        // create new user
+        $userData = [
+            'firstname' => $payload['user']['firstname'],
+            'lastname' => $payload['user']['lastname'],
+            'email' => $userEmail,
+            'company' => $payload['user']['company'],
+            'mandelbaerli_received' => $storedUsers[$userIndex]['mandelbaerli_received'] ?: $payload['mandelbaerli_score_achieved'],
+            'newsletter' => $payload['user']['newsletter'],
+            'results' => array_merge($storedUsers[$userIndex]['results'], [$result]),
+        ];
+
+        $storedUsers[$userIndex] = array_merge($storedUsers[$userIndex], $userData);
+
+        $entry->set('users', $storedUsers);
+        $entry->save();
+
+        return response()->json([
+            'mandelbaerli_received' => $mandelbaerliReceived,
+        ]);
     }
 }
