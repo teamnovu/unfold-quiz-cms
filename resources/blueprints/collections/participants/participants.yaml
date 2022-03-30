@@ -19,4 +19,7 @@ sections:
         field:
           type: slug
           localizable: true
+          instructions_position: above
+          listable: hidden
+          generate: true
 title: Participants
