@@ -61,10 +61,6 @@ class ResultsController extends Controller
         $users = collect($users)->map(function ($user) {
             $user->maxPoints = collect($user->results)->max('points');
 
-            if ($user->title !== 'Manuel Strebel') {
-                ray($user->results, $user->maxPoints);
-            }
-
             return $user;
         })->sortByDesc(fn ($user) => $user->maxPoints);
 
