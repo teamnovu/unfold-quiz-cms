@@ -43,7 +43,6 @@ class ResultsController extends Controller
         $user->title = $payload['user']['firstname'].' '.$payload['user']['lastname'];
         $user->firstname = $payload['user']['firstname'];
         $user->lastname = $payload['user']['lastname'];
-        $user->email = $userEmail;
         $user->company = $payload['user']['company'];
         $user->mandelbaerli_received = $user->mandelbaerli_received ?: $payload['mandelbaerli_score_achieved'];
         $user->newsletter = $payload['user']['newsletter'];
@@ -53,6 +52,28 @@ class ResultsController extends Controller
 
         return response()->json([
             'mandelbaerli_received' => $mandelbaerliReceived,
+        ]);
+    }
+
+    public function highscore(Request $request)
+    {
+        $users = Entry::query()->where('collection', 'participants')->get() ?: [];
+        $users = collect($users)->map(function ($user) {
+            $user->maxPoints = collect($user->results)->max('points');
+
+            if ($user->title !== 'Manuel Strebel') {
+                ray($user->results, $user->maxPoints);
+            }
+
+            return $user;
+        })->sortByDesc(fn ($user) => $user->maxPoints);
+
+        $maxScore = $users->first()?->maxPoints ?? 0;
+        $usersWithMaxScore = $users->filter(fn ($user) => $user->maxPoints === $maxScore)->count();
+
+        return response()->json([
+            'usersWithMaxScore' => $usersWithMaxScore,
+            'maxScore' => $maxScore,
         ]);
     }
 }

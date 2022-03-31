@@ -20,3 +20,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::post('/result', ResultsController::class);
+Route::get('/highscore', [ResultsController::class, 'highscore']);
