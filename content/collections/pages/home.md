@@ -36,7 +36,7 @@ completion_feedback:
 mandelbaerli_text: 'Hol dir jetzt dein Mandelbärli an unserem Stand ab! Zeig uns dafür deine Punktzahl.'
 no_mandelbaerli_text: 'Auch wir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab, wenn du noch keines bekommen hast.'
 updated_by: 3ef1c86e-b7fb-459b-9238-c3e41f033ec1
-updated_at: 1648716133
+updated_at: 1648725671
 main_title: 'Nimm jetzt am novu Quiz teil und gewinne tolle Preise!'
 register_title: 'Gib uns deine Daten, um am Wettbewerb teilzunehmen. 😋'
 components:
@@ -816,13 +816,13 @@ components:
             text: 'Design Thinking klingt zugegebenermassen innovativ und ist vielleicht in Branchen verbreitet, wo es viele kreative Menschen gibt. Mit dem Projektbudget hat Design Thinking wirklich keinen direkten Zusammenhang. Vielmehr geht es bei dieser Methode darum, alle beteiligten Personen im Projekt in der Lösungsentwicklung direkt zu involvieren und so den User ins Zentrum zu nehmen, agil zu arbeiten und Prozesse zu verkürzen.'
     radio_buttons:
       -
-        answer: 'Design Thinking klingt innovativ. Dies erhöht unsere Chancen ein neues Projekt zu gewinnen.'
+        answer: 'Design Thinking klingt innovativ. Dies erhöht unsere Chance, ein neues Projekt zu gewinnen.'
         correct: false
         revealer: null
         answer_correct_text: null
         answer_incorrect_text: null
       -
-        answer: 'Mit der Design Thinking Methode können die verschiedene Personen aus unterschiedlichen Bereichen involviert werden und an der Lösungsfindung teilnehmen.'
+        answer: 'Mit der Design Thinking Methode werden verschiedene Personen aus unterschiedlichen Bereichen involviert nehmen an der Lösungsfindung teil.'
         correct: true
         revealer: null
         answer_correct_text: null
