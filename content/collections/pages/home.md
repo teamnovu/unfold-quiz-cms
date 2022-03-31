@@ -36,7 +36,7 @@ completion_feedback:
 mandelbaerli_text: 'Hol dir jetzt dein Mandelbärli an unserem Stand ab! Zeig uns dafür deine Punktzahl.'
 no_mandelbaerli_text: 'Auch wir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab, wenn du noch keines bekommen hast.'
 updated_by: 07c941e1-8a8e-4441-87eb-242fb0adaa40
-updated_at: 1648728233
+updated_at: 1648734828
 main_title: 'Nimm jetzt am novu Quiz teil und gewinne tolle Preise!'
 register_title: 'Gib uns deine Daten, um am Wettbewerb teilzunehmen. 😋'
 components:
@@ -867,16 +867,16 @@ components:
     checkboxes:
       -
         answer: 'Uptime-Monitoring überwacht die generelle Verfügbarkeit (engl. availability) einer Website'
-        correct: true
+        correct: false
       -
         answer: 'Broken Link Checking wird im Monitoring verwendet, um Verlinkungen ohne Ziel aufzudecken'
-        correct: true
+        correct: false
       -
         answer: 'Mit Server Health Monitoring wird überprüft, ob der User in guter psychischen Verfassung ist'
-        correct: false
+        correct: true
       -
         answer: 'Ein gut funktionierendes Monitoring verbessert die User Experience einer Website'
-        correct: false
+        correct: true
     type: checkboxes
     enabled: true
   -
