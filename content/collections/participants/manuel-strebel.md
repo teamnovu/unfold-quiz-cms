@@ -16,11 +16,15 @@ results:
     completed_at: '2022-03-30 23:01:20'
     points: 2
     total: 15
+  -
+    completed_at: '2022-03-31 01:05:37'
+    points: 14
+    total: 15
 title: 'Manuel Strebel'
 firstname: Manuel
 lastname: Strebel
 company: novu
-newsletter: false
+newsletter: true
 updated_by: 07c941e1-8a8e-4441-87eb-242fb0adaa40
 updated_at: 1648679827
 ---
