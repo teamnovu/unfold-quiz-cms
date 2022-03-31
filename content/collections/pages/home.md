@@ -35,8 +35,8 @@ completion_feedback:
             text: 'Gratuliere, 🤩 du gehörst nun zu den novu Profis und Anwärter:innen für ganz coole Preise. 😍'
 mandelbaerli_text: 'Hol dir jetzt dein Mandelbärli an unserem Stand ab! Zeig uns dafür deine Punktzahl.'
 no_mandelbaerli_text: 'Auch wir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab, wenn du noch keines bekommen hast.'
-updated_by: 21985a0f-b04d-4818-937d-e6240cd1c12c
-updated_at: 1648669250
+updated_by: 3ef1c86e-b7fb-459b-9238-c3e41f033ec1
+updated_at: 1648715396
 main_title: 'Nimm jetzt am novu Quiz teil und gewinne tolle Preise!'
 register_title: 'Gib uns deine Daten, um am Wettbewerb teilzunehmen. 😋'
 components:
@@ -47,7 +47,7 @@ components:
         content:
           -
             type: text
-            text: 'Welche(s) dieser Angebote gehört/gehören NICHT zu unseren Kernkompetenzen? (mehrere möglich)'
+            text: 'Welche(s) dieser Angebote gehört/gehören NICHT zu unseren Kernkompetenzen (mehrere möglich)? '
     global_feedback: true
     is_illustration: true
     checkboxes:
