@@ -35,8 +35,8 @@ completion_feedback:
             text: 'Gratuliere, 🤩 du gehörst nun zu den novu Profis und Anwärter:innen für ganz coole Preise. 😍'
 mandelbaerli_text: 'Hol dir jetzt dein Mandelbärli an unserem Stand ab! Zeig uns dafür deine Punktzahl.'
 no_mandelbaerli_text: 'Auch wir lieben Mandelbärli, leider können wir nur eines pro Person verteilen. Hol dir nur eines ab, wenn du noch keines bekommen hast.'
-updated_by: 3ef1c86e-b7fb-459b-9238-c3e41f033ec1
-updated_at: 1648726504
+updated_by: 07c941e1-8a8e-4441-87eb-242fb0adaa40
+updated_at: 1648728233
 main_title: 'Nimm jetzt am novu Quiz teil und gewinne tolle Preise!'
 register_title: 'Gib uns deine Daten, um am Wettbewerb teilzunehmen. 😋'
 components:
@@ -848,7 +848,7 @@ components:
         content:
           -
             type: text
-            text: 'Was sind alles Vorteile von einer guten Developer Experience? (mehrere möglich)'
+            text: 'Welche dieser Aussagen zum Thema Monitoring ist FALSCH? (mehrere möglich)'
     global_feedback: true
     answer_correct:
       -
@@ -856,26 +856,26 @@ components:
         content:
           -
             type: text
-            text: 'Bravo, du hast alle Vorteile einer guten Developer Experience erkannt. Eine gute Developer Experience führt zu einer schnelleren Markteinführung des Produkts, einer höheren Zufriedenheit am Arbeitsplatz und so auch zu einem tieferen Fluktuationsrisiko.'
+            text: 'Bravo, du hast alle Vorteile eines guten Monitorings erkannt. Ein gutes Monitoring überwacht die generelle Verfügbarkeit eines Servers und unterstützt bei der Suche nach fehlerhaften Links.'
     answer_incorrect:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Überleg noch einmal gut. Developer Experience ist die Erfahrung und das Erlebnis, welches ein(e) Entwickler:in beim Entwickeln macht. Das hilft, eine schnelle Markteinführung möglich zu machen und verkleinert das Risiko von Fluktuation. Zu einer verbesserten Kollaboration & einer genau definierten Problemstellung führt es nicht zwingend; eher sind diese Grundlagen für eine gute Developer Experience.'
+            text: 'Überleg noch einmal gut. Das Monitoring überwacht die Website bzw. Webapplikation und deren Verfügbarkeit. Weiter kannst du mit Monitoring fehlerhafte Verlinkungen (Broken Links) identifizieren. Mit der User Experience hat das nicht direkt etwas zu tun und Server Health Monitoring überwacht den Server und nicht wirklich die Gesundheit eines Users. ;)'
     checkboxes:
       -
-        answer: 'Schnellere Markteinführung des Produktes'
+        answer: 'Uptime-Monitoring überwacht die generelle Verfügbarkeit (engl. availability) einer Website'
         correct: true
       -
-        answer: 'Weniger Fluktuation im Entwicklungsteam'
+        answer: 'Broken Link Checking wird im Monitoring verwendet, um Verlinkungen ohne Ziel aufzudecken'
         correct: true
       -
-        answer: 'Bessere Kollaboration zwischen Entwickler:innen und anderen Beteiligten'
+        answer: 'Mit Server Health Monitoring wird überprüft, ob der User in guter psychischen Verfassung ist'
         correct: false
       -
-        answer: 'Genau definierte Problemstellung'
+        answer: 'Ein gut funktionierendes Monitoring verbessert die User Experience einer Website'
         correct: false
     type: checkboxes
     enabled: true
